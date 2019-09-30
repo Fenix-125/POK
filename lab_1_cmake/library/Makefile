@@ -12,17 +12,16 @@ OBJS = $(patsubst %.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
 
 all: $(BIN_DIR)/$(PRG_NAME)
-	#if [ ! -d $(OBJ_DIR) ]
-	#then;
-	#mkdir $(OBJ_DIR);
-	#fi
-	#if [ ! -d $(BIN_DIR) ] then; mkdir $(BIN_DIR); fi
+
 
 -include $(OBJS:.o=.d)
 
 $(BIN_DIR)/$(PRG_NAME): $(OBJS)
 	#$(CC) $(LDFLAGS) $^ -o $@
-	ar rcs $(PKG_NAME).a $(OBJS)
+	if [ ! -d $(OBJ_DIR) ]; then mkdir $(OBJ_DIR); fi
+	if [ ! -d $(BIN_DIR) ]; then mkdir $(BIN_DIR); fi
+
+	ar rcs $(BIN_DIR)/$(PRG_NAME).a $(OBJS)
 
 $(OBJ_DIR)/%.o: %.c
 	$(CC) -c $(CCFLAGS) $< -o $@

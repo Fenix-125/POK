@@ -59,10 +59,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fenix/pr/POK/lab_1_cmake
+CMAKE_SOURCE_DIR = /home/fenix/pr/subj/POK/lab_1_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fenix/pr/POK/lab_1_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fenix/pr/subj/POK/lab_1_cmake/cmake-build-debug
 
 #=============================================================================
 # Special targets to cleanup operation of make.
