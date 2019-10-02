@@ -1,0 +1,28 @@
+# Створення бібліотеки і виконавчого файлу в одному проекті
+CMAKE_MINIMUM_REQUIRED(VERSION 3.8)
+
+PROJECT(lab_1_cmake C)
+
+# SET(CMAKE_VERBOSE_MAKEFILE ON)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_EXTENSIONS FALSE)
+
+file(GLOB SOURCES *.c *.h)
+#SET(SOURCES *.c *.h)
+SET(LIB_NAME zlib)
+
+
+ADD_EXECUTABLE()
+ADD_LIBRARY(${LIB_NAME} STATIC ${SOURCES})
+ADD_LIBRARY(${LIB_NAME} SHARED ${SOURCES})
+
+
+add_library(${LIB_NAME} SHARED ${SOURCES})
+
+SET(hello1_FILES main_file.cpp)
+
+
+TARGET_LINK_LIBRARIES(hello1 funcs)
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
+
