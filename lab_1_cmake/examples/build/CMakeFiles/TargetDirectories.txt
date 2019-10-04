@@ -1,4 +1,0 @@
-/home/fenix/pr/subj/POK/lab_1_cmake/examples/build/CMakeFiles/rebuild_cache.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/examples/build/CMakeFiles/edit_cache.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/examples/build/CMakeFiles/example.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/examples/build/CMakeFiles/minigzip.dir

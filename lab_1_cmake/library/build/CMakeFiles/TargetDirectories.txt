@@ -1,4 +1,0 @@
-/home/fenix/pr/subj/POK/lab_1_cmake/library/build/CMakeFiles/rebuild_cache.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/library/build/CMakeFiles/edit_cache.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/library/build/CMakeFiles/zlib.dir
-/home/fenix/pr/subj/POK/lab_1_cmake/library/build/CMakeFiles/zlib-share.dir

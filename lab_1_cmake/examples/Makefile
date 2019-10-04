@@ -1,9 +1,9 @@
 CC = gcc
-CCFLAGS = -O3
-LDFLAGS = -O3
+CCFLAGS = -O3 -w
+LDFLAGS = -O3 -w
 
-SOURCES1 = minigzip.c
-SOURCES2 = example.c
+SOURCES1 = example.c
+SOURCES2 = minigzip.c
 
 PRG_NAME1 = example
 PRG_NAME2 = minigzip
@@ -20,12 +20,20 @@ LIB = $(LIB_DIR)/zlib.so
 all: dirs $(BIN_DIR)/$(PRG_NAME1) $(BIN_DIR)/$(PRG_NAME2)
 
 
-.PHONY: dirs
-dirs:
-	if [ ! -d $(OBJ_DIR) ]; then mkdir $(OBJ_DIR); fi
-	if [ ! -d $(BIN_DIR) ]; then mkdir $(BIN_DIR); fi
+debug: CCFLAGS = -g -w
+debug: LDFLAGS = -g -w
+debug: all
 
-#gcc -O3 -o  out ../../example/djpeg.c ../../example/cdjpeg.c  -I../../library -L../../library/bin -ljpeg
+
+$(OBJ_DIR):
+	mkdir $(OBJ_DIR) -p
+
+$(BIN_DIR):
+	mkdir $(BIN_DIR) -p
+
+dirs: $(OBJ_DIR) $(BIN_DIR)
+
+
 $(BIN_DIR)/$(PRG_NAME1): $(OBJ_DIR)/$(PRG_NAME1).o
 	$(CC) $(LDFLAGS) -o $@ $^ ../library/bin/libzlib.so
 

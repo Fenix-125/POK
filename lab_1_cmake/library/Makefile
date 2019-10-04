@@ -1,34 +1,47 @@
 CC = gcc
-CCFLAGS = -O3
-LDFLAGS = -O3
+CCFLAGS = -O3 -w
+LDFLAGS = -O3 -w
 
 SOURCES =  $(wildcard *.c)
 PRG_NAME = libzlib
 BIN_DIR = bin
 OBJ_DIR = obj
 SO_DIR = $(OBJ_DIR)/so_obj
+BIN_NAME = $(BIN_DIR)/$(PRG_NAME)
 
 OBJS = $(patsubst %.c,$(OBJ_DIR)/%.o,$(SOURCES))
 SO_OBJS = $(patsubst %.c,$(SO_DIR)/%.o,$(SOURCES))
 
 
-all: dirs $(BIN_DIR)/$(PRG_NAME) TARG_SO
+all: dirs $(BIN_NAME).a $(BIN_NAME).so $(BIN_NAME).so.a
 
 
-#.PHONY: dirs
-dirs:
-	if [ ! -d $(OBJ_DIR) ]; then mkdir $(OBJ_DIR); fi
-	if [ ! -d $(BIN_DIR) ]; then mkdir $(BIN_DIR); fi
-	if [ ! -d $(SO_DIR) ]; then mkdir $(SO_DIR); fi
+debug: CCFLAGS = -g -w
+debug: LDFLAGS = -g -w
+debug: all
 
 
-$(BIN_DIR)/$(PRG_NAME): $(OBJS)
-	ar rcs $@.a $(OBJS)
+$(OBJ_DIR):
+	mkdir $(OBJ_DIR) -p
+
+$(BIN_DIR):
+	mkdir $(BIN_DIR) -p
+
+$(SO_DIR):
+	mkdir $(SO_DIR) -p
+
+dirs: $(OBJ_DIR) $(BIN_DIR) $(SO_DIR)
 
 
-TARG_SO: $(SO_OBJS)
-	$(CC) -shared -Wl,-soname,$(PRG_NAME).so $(LDFLAGS) $(SO_OBJS) -o $(BIN_DIR)/$(PRG_NAME).so
-	$(CC) -shared -Wl,-soname,$(PRG_NAME).so.a,--out-implib,$(BIN_DIR)/$(PRG_NAME).so.a $(LDFLAGS) $(SO_OBJS) -o $(BIN_DIR)/$(PRG_NAME).so.a
+$(BIN_NAME).a: $(OBJS)
+	ar rcs $@ $(OBJS)
+
+
+$(BIN_NAME).so: $(SO_OBJS)
+	$(CC) -shared -Wl,-soname,$(PRG_NAME).so $(LDFLAGS) $(SO_OBJS) -o $@
+
+$(BIN_NAME).so.a:
+	$(CC) -shared -Wl,-soname,$(PRG_NAME).so.a,--out-implib,$@ $(LDFLAGS) $(SO_OBJS) -o $@
 
 
 $(OBJ_DIR)/%.o: %.c
@@ -45,4 +58,3 @@ clean:
 	rm -rf $(OBJ_DIR) $(BIN_DIR)
 
 -include $(OBJS:.o=.d)
-#-include $(SO_OBJS:.o=$(SO_DIR)/so_objects.d)

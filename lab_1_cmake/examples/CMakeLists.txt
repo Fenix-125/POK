@@ -5,22 +5,22 @@ PROJECT(lab_1_cmake C)
 
 set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
 set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
- SET(CMAKE_VERBOSE_MAKEFILE ON)
+# SET(CMAKE_VERBOSE_MAKEFILE ON)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_EXTENSIONS FALSE)
 
+
 file(GLOB SOURCES *.c *.h)
 SET(LIB_NAME libzlib)
 
-set (CMAKE_LIBRARY_PATH "../library/bin")
+set (CMAKE_LIBRARY_PATH "../library/build")
+set(CMAKE_C_FLAGS  "${CMAKE_CXX_FLAGS} -w")
 
 find_library(PATH_LIB NAMES libzlib.so)
 ADD_EXECUTABLE(example  example.c)
 TARGET_LINK_LIBRARIES( example ${PATH_LIB} )
-#target_include_directories(example PUBLIC  ../library/bin/libzlib.so)
-#FIND_LIBRARY()
+
 
 ADD_EXECUTABLE(minigzip  minigzip.c)
 TARGET_LINK_LIBRARIES( minigzip ${PATH_LIB} )
-#target_include_directories(minigzip PUBLIC  ../library/bin/libzlib.so)
