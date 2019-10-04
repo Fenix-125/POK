@@ -31,7 +31,7 @@ $(BIN_DIR)/$(PRG_NAME1): $(OBJ_DIR)/$(PRG_NAME1).o
 
 
 $(BIN_DIR)/$(PRG_NAME2): $(OBJ_DIR)/$(PRG_NAME2).o
-	$(CC) $(LDFLAGS) -o $@ $^ ../library/bin/libzlib.so
+	$(CC) $(LDFLAG.S) -o $@ $^ ../library/bin/libzlib.so
 
 
 $(OBJ_DIR)/$(PRG_NAME1).o: $(SOURCES1)

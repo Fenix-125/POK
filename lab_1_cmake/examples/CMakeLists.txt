@@ -1,8 +1,26 @@
+# Створення бібліотеки і виконавчого файлу в одному проекті
 CMAKE_MINIMUM_REQUIRED(VERSION 3.8)
 
-PROJECT(lab_1_cmake C CXX)
+PROJECT(lab_1_cmake C)
 
-SET(hello1_FILES file1.cpp file2.cpp
-        main_file.cpp file1.h file2.h)
+set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
+set(CMAKE_DISABLE_SOURCE_CHANGES  ON)
+ SET(CMAKE_VERBOSE_MAKEFILE ON)
 
-ADD_EXECUTABLE(hello1  ${hello1_FILES})
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_EXTENSIONS FALSE)
+
+file(GLOB SOURCES *.c *.h)
+SET(LIB_NAME libzlib)
+
+set (CMAKE_LIBRARY_PATH "../library/bin")
+
+find_library(PATH_LIB NAMES libzlib.so)
+ADD_EXECUTABLE(example  example.c)
+TARGET_LINK_LIBRARIES( example ${PATH_LIB} )
+#target_include_directories(example PUBLIC  ../library/bin/libzlib.so)
+#FIND_LIBRARY()
+
+ADD_EXECUTABLE(minigzip  minigzip.c)
+TARGET_LINK_LIBRARIES( minigzip ${PATH_LIB} )
+#target_include_directories(minigzip PUBLIC  ../library/bin/libzlib.so)

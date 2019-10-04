@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/minigzip.dir/minigzip.c.o  -o minigzip -Wl,-rpath,/home/fenix/pr/subj/POK/lab_1_cmake/library/bin /home/fenix/pr/subj/POK/lab_1_cmake/library/bin/libzlib.so 
