@@ -57,27 +57,27 @@ include CMakeFiles/lab_2_strings.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab_2_strings.dir/flags.make
 
-CMakeFiles/lab_2_strings.dir/src/library.c.o: CMakeFiles/lab_2_strings.dir/flags.make
-CMakeFiles/lab_2_strings.dir/src/library.c.o: ../src/library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab_2_strings.dir/src/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_2_strings.dir/src/library.c.o   -c /home/fenix/pr/subj/POK/lab_2_strings/src/library.c
+CMakeFiles/lab_2_strings.dir/src/my_str.c.o: CMakeFiles/lab_2_strings.dir/flags.make
+CMakeFiles/lab_2_strings.dir/src/my_str.c.o: ../src/my_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab_2_strings.dir/src/my_str.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_2_strings.dir/src/my_str.c.o   -c /home/fenix/pr/subj/POK/lab_2_strings/src/my_str.c
 
-CMakeFiles/lab_2_strings.dir/src/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab_2_strings.dir/src/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/lab_2_strings/src/library.c > CMakeFiles/lab_2_strings.dir/src/library.c.i
+CMakeFiles/lab_2_strings.dir/src/my_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab_2_strings.dir/src/my_str.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/lab_2_strings/src/my_str.c > CMakeFiles/lab_2_strings.dir/src/my_str.c.i
 
-CMakeFiles/lab_2_strings.dir/src/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_2_strings.dir/src/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_2_strings/src/library.c -o CMakeFiles/lab_2_strings.dir/src/library.c.s
+CMakeFiles/lab_2_strings.dir/src/my_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_2_strings.dir/src/my_str.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_2_strings/src/my_str.c -o CMakeFiles/lab_2_strings.dir/src/my_str.c.s
 
 # Object files for target lab_2_strings
 lab_2_strings_OBJECTS = \
-"CMakeFiles/lab_2_strings.dir/src/library.c.o"
+"CMakeFiles/lab_2_strings.dir/src/my_str.c.o"
 
 # External object files for target lab_2_strings
 lab_2_strings_EXTERNAL_OBJECTS =
 
-liblab_2_strings.a: CMakeFiles/lab_2_strings.dir/src/library.c.o
+liblab_2_strings.a: CMakeFiles/lab_2_strings.dir/src/my_str.c.o
 liblab_2_strings.a: CMakeFiles/lab_2_strings.dir/build.make
 liblab_2_strings.a: CMakeFiles/lab_2_strings.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblab_2_strings.a"

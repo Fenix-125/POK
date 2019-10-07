@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab_2_strings.dir/src/library.c.o"
+  "CMakeFiles/lab_2_strings.dir/src/my_str.c.o"
   "liblab_2_strings.a"
   "liblab_2_strings.pdb"
 )

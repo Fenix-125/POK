@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/fenix/pr/subj/POK/lab_2_strings/src/library.c" "/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/lab_2_strings.dir/src/library.c.o"
+  "/home/fenix/pr/subj/POK/lab_2_strings/src/my_str.c" "/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/lab_2_strings.dir/src/my_str.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

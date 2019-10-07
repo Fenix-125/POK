@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -111,44 +114,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab_2_strings
+# Target rules for targets named my_str
 
 # Build rule for target.
-lab_2_strings: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab_2_strings
-.PHONY : lab_2_strings
+my_str: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_str
+.PHONY : my_str
 
 # fast build rule for target.
-lab_2_strings/fast:
-	$(MAKE) -f CMakeFiles/lab_2_strings.dir/build.make CMakeFiles/lab_2_strings.dir/build
-.PHONY : lab_2_strings/fast
+my_str/fast:
+	$(MAKE) -f CMakeFiles/my_str.dir/build.make CMakeFiles/my_str.dir/build
+.PHONY : my_str/fast
 
-src/library.o: src/library.c.o
+#=============================================================================
+# Target rules for targets named test
 
-.PHONY : src/library.o
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+src/my_str.o: src/my_str.c.o
+
+.PHONY : src/my_str.o
 
 # target to build an object file
-src/library.c.o:
-	$(MAKE) -f CMakeFiles/lab_2_strings.dir/build.make CMakeFiles/lab_2_strings.dir/src/library.c.o
-.PHONY : src/library.c.o
+src/my_str.c.o:
+	$(MAKE) -f CMakeFiles/my_str.dir/build.make CMakeFiles/my_str.dir/src/my_str.c.o
+.PHONY : src/my_str.c.o
 
-src/library.i: src/library.c.i
+src/my_str.i: src/my_str.c.i
 
-.PHONY : src/library.i
+.PHONY : src/my_str.i
 
 # target to preprocess a source file
-src/library.c.i:
-	$(MAKE) -f CMakeFiles/lab_2_strings.dir/build.make CMakeFiles/lab_2_strings.dir/src/library.c.i
-.PHONY : src/library.c.i
+src/my_str.c.i:
+	$(MAKE) -f CMakeFiles/my_str.dir/build.make CMakeFiles/my_str.dir/src/my_str.c.i
+.PHONY : src/my_str.c.i
 
-src/library.s: src/library.c.s
+src/my_str.s: src/my_str.c.s
 
-.PHONY : src/library.s
+.PHONY : src/my_str.s
 
 # target to generate assembly for a file
-src/library.c.s:
-	$(MAKE) -f CMakeFiles/lab_2_strings.dir/build.make CMakeFiles/lab_2_strings.dir/src/library.c.s
-.PHONY : src/library.c.s
+src/my_str.c.s:
+	$(MAKE) -f CMakeFiles/my_str.dir/build.make CMakeFiles/my_str.dir/src/my_str.c.s
+.PHONY : src/my_str.c.s
+
+test/tests.o: test/tests.c.o
+
+.PHONY : test/tests.o
+
+# target to build an object file
+test/tests.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/tests.c.o
+.PHONY : test/tests.c.o
+
+test/tests.i: test/tests.c.i
+
+.PHONY : test/tests.i
+
+# target to preprocess a source file
+test/tests.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/tests.c.i
+.PHONY : test/tests.c.i
+
+test/tests.s: test/tests.c.s
+
+.PHONY : test/tests.s
+
+# target to generate assembly for a file
+test/tests.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test/tests.c.s
+.PHONY : test/tests.c.s
 
 # Help Target
 help:
@@ -157,11 +200,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... lab_2_strings"
 	@echo "... edit_cache"
-	@echo "... src/library.o"
-	@echo "... src/library.i"
-	@echo "... src/library.s"
+	@echo "... my_str"
+	@echo "... test"
+	@echo "... src/my_str.o"
+	@echo "... src/my_str.i"
+	@echo "... src/my_str.s"
+	@echo "... test/tests.o"
+	@echo "... test/tests.i"
+	@echo "... test/tests.s"
 .PHONY : help
 
 

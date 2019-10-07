@@ -1,7 +1,5 @@
-#include <ctype.h>
-#include <glob.h>
+#include <stdlib.h>
 #include <stdio.h>
-
 
 #ifndef LAB_2_STRINGS_LIBRARY_H
 #define LAB_2_STRINGS_LIBRARY_H
@@ -14,8 +12,6 @@ typedef struct
 } my_str_t;
 
 int my_str_create(my_str_t* str, size_t buf_size);
-
-void my_str_free(my_str_t* str);
 
 int my_str_from_cstr(my_str_t* str, const char* cstr, size_t buf_size);
 
@@ -81,4 +77,9 @@ int my_str_write(const my_str_t* str, FILE* file);
 
 int my_str_read_file_delim(my_str_t* str, FILE* file, char delimiter);
 
+size_t char_arr_len(const char* s);
+
+void char_arr_copy(const char *arr, size_t to_index, char *arr_copy);
+
+int my_str_realloc(my_str_t *str, size_t buffer);
 #endif //LAB_2_STRINGS_LIBRARY_H

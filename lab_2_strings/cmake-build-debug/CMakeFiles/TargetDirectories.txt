@@ -1,3 +1,4 @@
 /home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/lab_2_strings.dir
 /home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/my_str.dir
+/home/fenix/pr/subj/POK/lab_2_strings/cmake-build-debug/CMakeFiles/test.dir
