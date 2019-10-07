@@ -4,9 +4,9 @@ cd library || exit 1
 mkdir build -p
 cd build || exit 2
 
-cmake -G"Unix Makefiles" .. -D CMAKE_BUILD_TYPE=Release
+cmake -G"Unix Makefiles" .. -DCMAKE_BUILD_TYPE=Release
 #O R (do not combine)
-#cmake -G"Unix Makefiles" .. -D CMAKE_BUILD_TYPE=Debug
+#cmake -G"Unix Makefiles" .. -DCMAKE_BUILD_TYPE=Debug
 make
 
 
@@ -14,9 +14,9 @@ cd ../../examples || exit 3
 mkdir build -p
 cd build || exit 4
 
-cmake -G"Unix Makefiles" .. -D CMAKE_BUILD_TYPE=Release
-#O R (do not combine)
-#cmake -G"Unix Makefiles" .. -D CMAKE_BUILD_TYPE=Debug
+cmake -G"Unix Makefiles" .. -DCMAKE_BUILD_TYPE=Release
+#OR (do not combine)
+#cmake -G"Unix Makefiles" .. -DCMAKE_BUILD_TYPE=Debug
 make
 
 echo; echo
