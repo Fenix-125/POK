@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblab_2_strings.a  CMakeFiles/lab_2_strings.dir/src/my_str.c.o
-/usr/bin/ranlib liblab_2_strings.a
