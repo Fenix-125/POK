@@ -1,0 +1,137 @@
+00000000: 7F 45 4C 46 02 01 01 03 00 00 00 00 00 00 00 00       format ELF64 executable 3
+          02 00 3E 00 01 00 00 00 B8 00 40 00 00 00 00 00       
+          40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00       
+          00 00 00 00 40 00 38 00 02 00 40 00 00 00 00 00       
+          01 00 00 00 05 00 00 00 B0 00 00 00 00 00 00 00       
+          B0 00 40 00 00 00 00 00 B0 00 40 00 00 00 00 00       
+          8D 02 00 00 00 00 00 00 8D 02 00 00 00 00 00 00       
+          00 10 00 00 00 00 00 00 01 00 00 00 06 00 00 00       
+          3D 03 00 00 00 00 00 00 3D 13 40 00 00 00 00 00       
+          3D 13 40 00 00 00 00 00 1A 00 00 00 00 00 00 00       
+          1A 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00       
+                                                                segment readable executable
+                                                                
+000000B0: 00 00 00 00 00 00 00 00                               save_rsp	dq ?
+                                                                
+                                                                entry $
+000000B8: 55                                                    	push rbp
+000000B9: 48 89 25 F0 FF FF FF                                  	mov	[save_rsp], rsp
+                                                                	;=========================
+000000C0: B8 AB 00 00 00                                        	mov	eax, 0xAB
+000000C5: 05 AB 00 00 00                                        	add	eax, 0xAB
+000000CA: 2D AB 00 00 00                                        	sub	eax, 0xAB
+                                                                	;=========================
+000000CF: B8 AB 00 00 00                                        	mov	eax, 0xAB
+000000D4: BB AB 00 00 00                                        	mov	ebx, 0xAB
+000000D9: B9 AB 00 00 00                                        	mov	ecx, 0xAB
+000000DE: BA AB 00 00 00                                        	mov	edx, 0xAB
+000000E3: BE AB 00 00 00                                        	mov	esi, 0xAB
+000000E8: BF AB 00 00 00                                        	mov	edi, 0xAB
+000000ED: BD AB 00 00 00                                        	mov	ebp, 0xAB
+000000F2: BC AB 00 00 00                                        	mov	esp, 0xAB
+000000F7: 41 B8 AB 00 00 00                                     	mov	r8d, 0xAB
+000000FD: 41 B9 AB 00 00 00                                     	mov	r9d, 0xAB
+00000103: 41 BA AB 00 00 00                                     	mov	r10d, 0xAB
+00000109: 41 BB AB 00 00 00                                     	mov	r11d, 0xAB
+0000010F: 41 BC AB 00 00 00                                     	mov	r12d, 0xAB
+00000115: 41 BD AB 00 00 00                                     	mov	r13d, 0xAB
+0000011B: 41 BE AB 00 00 00                                     	mov	r14d, 0xAB
+00000121: 41 BF AB 00 00 00                                     	mov	r15d, 0xAB
+                                                                
+                                                                	;=========================
+00000127: B8 01 EF CD AB                                        	mov	eax, 0xABCDEF01
+0000012C: BB 01 EF CD AB                                        	mov	ebx, 0xABCDEF01
+00000131: B9 01 EF CD AB                                        	mov	ecx, 0xABCDEF01
+00000136: BA 01 EF CD AB                                        	mov	edx, 0xABCDEF01
+0000013B: BE 01 EF CD AB                                        	mov	esi, 0xABCDEF01
+00000140: BF 01 EF CD AB                                        	mov	edi, 0xABCDEF01
+00000145: BD 01 EF CD AB                                        	mov	ebp, 0xABCDEF01
+0000014A: BC 01 EF CD AB                                        	mov	esp, 0xABCDEF01
+0000014F: 41 B8 01 EF CD AB                                     	mov	r8d, 0xABCDEF01
+00000155: 41 B9 01 EF CD AB                                     	mov	r9d, 0xABCDEF01
+0000015B: 41 BA 01 EF CD AB                                     	mov	r10d, 0xABCDEF01
+00000161: 41 BB 01 EF CD AB                                     	mov	r11d, 0xABCDEF01
+00000167: 41 BC 01 EF CD AB                                     	mov	r12d, 0xABCDEF01
+0000016D: 41 BD 01 EF CD AB                                     	mov	r13d, 0xABCDEF01
+00000173: 41 BE 01 EF CD AB                                     	mov	r14d, 0xABCDEF01
+00000179: 41 BF 01 EF CD AB                                     	mov	r15d, 0xABCDEF01
+                                                                	
+                                                                	;=======================
+0000017F: 48 C7 C0 AB 00 00 00                                  	mov	rax, 0xAB
+00000186: 48 C7 C3 AB 00 00 00                                  	mov	rbx, 0xAB
+0000018D: 48 C7 C1 AB 00 00 00                                  	mov	rcx, 0xAB
+00000194: 48 C7 C2 AB 00 00 00                                  	mov	rdx, 0xAB
+0000019B: 48 C7 C6 AB 00 00 00                                  	mov	rsi, 0xAB
+000001A2: 48 C7 C7 AB 00 00 00                                  	mov	rdi, 0xAB
+000001A9: 48 C7 C5 AB 00 00 00                                  	mov	rbp, 0xAB
+000001B0: 48 C7 C4 AB 00 00 00                                  	mov	rsp, 0xAB
+000001B7: 49 C7 C0 AB 00 00 00                                  	mov	r8,  0xAB
+000001BE: 49 C7 C1 AB 00 00 00                                  	mov	r9,  0xAB
+000001C5: 49 C7 C2 AB 00 00 00                                  	mov	r10, 0xAB
+000001CC: 49 C7 C3 AB 00 00 00                                  	mov	r11, 0xAB
+000001D3: 49 C7 C4 AB 00 00 00                                  	mov	r12, 0xAB
+000001DA: 49 C7 C5 AB 00 00 00                                  	mov	r13, 0xAB
+000001E1: 49 C7 C6 AB 00 00 00                                  	mov	r14, 0xAB
+000001E8: 49 C7 C7 AB 00 00 00                                  	mov	r15, 0xAB
+                                                                
+                                                                	;=========================
+000001EF: 48 B8 01 EF CD AB 00 00 00 00                         	mov	rax, 0xABCDEF01
+000001F9: 48 BB 01 EF CD AB 00 00 00 00                         	mov	rbx, 0xABCDEF01
+00000203: 48 B9 01 EF CD AB 00 00 00 00                         	mov	rcx, 0xABCDEF01
+0000020D: 48 BA 01 EF CD AB 00 00 00 00                         	mov	rdx, 0xABCDEF01
+00000217: 48 BE 01 EF CD AB 00 00 00 00                         	mov	rsi, 0xABCDEF01
+00000221: 48 BF 01 EF CD AB 00 00 00 00                         	mov	rdi, 0xABCDEF01
+0000022B: 48 BD 01 EF CD AB 00 00 00 00                         	mov	rbp, 0xABCDEF01
+00000235: 48 BC 01 EF CD AB 00 00 00 00                         	mov	rsp, 0xABCDEF01
+0000023F: 49 B8 01 EF CD AB 00 00 00 00                         	mov	r8,  0xABCDEF01
+00000249: 49 B9 01 EF CD AB 00 00 00 00                         	mov	r9,  0xABCDEF01
+00000253: 49 BA 01 EF CD AB 00 00 00 00                         	mov	r10, 0xABCDEF01
+0000025D: 49 BB 01 EF CD AB 00 00 00 00                         	mov	r11, 0xABCDEF01
+00000267: 49 BC 01 EF CD AB 00 00 00 00                         	mov	r12, 0xABCDEF01
+00000271: 49 BD 01 EF CD AB 00 00 00 00                         	mov	r13, 0xABCDEF01
+0000027B: 49 BE 01 EF CD AB 00 00 00 00                         	mov	r14, 0xABCDEF01
+00000285: 49 BF 01 EF CD AB 00 00 00 00                         	mov	r15, 0xABCDEF01
+                                                                	;=========================
+                                                                	;=========================
+                                                                	; LEA to avoid real memory access.
+0000028F: 48 8D 15 3C 02 C0 FF                                  	lea	rdx, [1234]
+00000296: 48 8D 15 B1 5E 7C 00                                  	lea	rdx, [12345678]
+0000029D: 48 8D 94 33 78 56 34 12                               	lea	rdx, [RBX + 1*RSI + 0x12345678]
+000002A5: 48 8D 94 73 78 56 34 12                               	lea	rdx, [RBX + 2*RSI + 0x12345678]
+000002AD: 48 8D 94 B3 78 56 34 12                               	lea	rdx, [RBX + 4*RSI + 0x12345678]
+000002B5: 48 8D 94 F3 78 56 34 12                               	lea	rdx, [RBX + 8*RSI + 0x12345678]
+                                                                	; lea	rdx, [RBX + 8*ESI + 0x12345678] <--- error!
+000002BD: 67 48 8D 94 F3 78 56 34 12                            	lea	rdx, [EBX + 8*ESI + 0x12345678]
+000002C6: 67 8D 94 F3 78 56 34 12                               	lea	edx, [EBX + 8*ESI + 0x12345678]
+                                                                	;==================================
+000002CE: 48 8D 94 F3 00 00 34 12                               	lea	rdx, [RBX + 8*RSI + 0x12340000]
+000002D6: 48 8D 94 FB 00 00 34 12                               	lea	rdx, [RBX + 8*RDI + 0x12340000]
+000002DE: 48 8D 94 EB 00 00 34 12                               	lea	rdx, [RBX + 8*RBP + 0x12340000]
+                                                                	;==================================
+000002E6: 48 8D 94 E9 00 00 34 12                               	lea	rdx, [RCX + 8*RBP + 0x12340000]
+000002EE: 48 8D 94 EA 00 00 34 12                               	lea	rdx, [RDX + 8*RBP + 0x12340000]
+000002F6: 48 8D 94 ED 00 00 34 12                               	lea	rdx, [RBP + 8*RBP + 0x12340000]
+                                                                	;=========================
+000002FE: B0 05                                                 	mov		al,  0x5
+00000300: 66 B8 05 00                                           	mov		ax,  0x5
+00000304: B8 05 00 00 00                                        	mov		eax, 0x5
+00000309: 48 C7 C0 05 00 00 00                                  	mov		rax, 0x5
+00000310: B0 05                                                 	mov		al,  0x5
+00000312: 66 B8 78 56                                           	mov		ax,  0x5678
+00000316: B8 BC 9A 78 56                                        	mov		eax, 0x56789ABC
+0000031B: 48 C7 C0 BC 9A 78 56                                  	mov		rax, 0x56789ABC
+00000322: 48 B8 34 12 F0 DE BC 9A 78 56                         	mov		rax, 0x56789ABCDEF01234
+                                                                	;=========================
+                                                                
+0000032C: 48 8B 25 7D FD FF FF                                  	mov	rsp, [save_rsp]
+00000333: 5D                                                    	pop rbp
+                                                                
+00000334: B8 3C 00 00 00                                        	mov	eax,60		; __NR_exit (sys_exit) == 0 
+00000339: 31 FF                                                 	xor	edi,edi 	; exit code 0
+0000033B: 0F 05                                                 	syscall
+                                                                
+                                                                segment readable writeable
+                                                                
+0000033D: 48 65 6C 6C 6F 20 36 34 2D 62 69 74 20 4C 69 6E       msg db 'Hello 64-bit Linux world!',0xA
+          75 78 20 77 6F 72 6C 64 21 0A                         
+                                                                msg_size = $-msg 
