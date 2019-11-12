@@ -10,17 +10,22 @@ BIN_DIR = $(BUILD_DIR)/bin
 SOURCES_ASM = $(wildcard $(ASM_DIR)/*.asm)
 OBJS_ASM = $(patsubst $(ASM_DIR)/%.asm,$(OBJ_DIR)/%.o,$(SOURCES_ASM))
 CCFLAGS = -static
-ASMFLAGS =
 
 
 all: dirs $(BIN_DIR)/$(PKJ_NAME)
-	echo -e "\nOutput:"
-	$(BIN_DIR)/$(PKJ_NAME)
 
 
-dirs:
+$(OBJ_DIR):
 	mkdir $(OBJ_DIR) -p
+
+$(BIN_DIR):
 	mkdir $(BIN_DIR) -p
+
+dirs: $(OBJ_DIR) $(BIN_DIR)
+
+
+sort_test:
+	$(CC) src/c/sort_arr_sint32.c -o $(BIN_DIR)/arr_sort_C_test
 
 
 $(BIN_DIR)/$(PKJ_NAME): $(OBJS_ASM)

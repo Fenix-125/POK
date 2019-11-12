@@ -14,7 +14,7 @@ print_arr_sint32:
     push r13            ; r13d - last element adress
 
     mov r12d, edi       ; arr cursor to 0 el -> r12d
-    imul esi, 4;        ; multiplie by size of one element (x32b)
+    shl esi, 2;         ; multiplie by (4) size of one element (x32b)
     add esi, edi
     ;add esi, 4
     mov r13d, esi       ; cursor to last elem in arr -> r13d
@@ -32,10 +32,17 @@ print_arr_sint32:
         cmp r12d, r13d
         jne .next_el
     ; loop end
+
+
+    lea edi, [end_line] ; load the end str
+    xor rax, rax    ; num of used XMMs for variadic arg
+    call printf     ; "printf ("%d ", val) <- (edi, esi)"
+
     xor rax, rax
-    pop r12
     pop r13
+    pop r12
     ret
 
 section '.data' writeable
-    form db '%d',0xa,0x0
+    form db '%d ',0x0
+    end_line db 0xa

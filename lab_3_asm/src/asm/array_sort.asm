@@ -4,7 +4,7 @@ section '.text' executable
 
 public main
 extrn print_arr_sint32
-
+extrn sort_arr_sint32
 
 main:
     push rbp        ; Stack should be alinged to 16!
@@ -12,8 +12,18 @@ main:
     lea edi, [arr]  ; 32b-array adress
     mov esi, [len]  ; array length
     call print_arr_sint32
-    
-    
+
+    lea edi, [arr]  ; 32b-array adress
+    mov esi, [len]  ; array length
+    call sort_arr_sint32
+
+    lea edi, [arr]  ; 32b-array adress
+    mov esi, 5  ; array length
+    call print_arr_sint32
+
+    lea edi, [len]  ; 32b-array adress
+    mov esi, 1  ; array length
+    call print_arr_sint32
     ;##############_EXIT_##############
     pop rbp 
     xor rdi, rdi    ; exit code in rdi
@@ -23,5 +33,5 @@ main:
 
 
 section '.data' writeable
-    arr dd 2147483648, 2000000000, 2111111111, -2122222222
-    len dd 4
+    arr dd 5, 3, 4, 2, 1
+    len dd 5
