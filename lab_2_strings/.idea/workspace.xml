@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f861bc34-aed1-4e58-af16-32f705c1c060" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/lab_2_strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/dictionaries/fenix.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/midle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/PVS-Studio.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/arr_diff.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/arr_diff.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/bin/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/bin/vgcore.6173" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/arr_diff.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/main.c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/C.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.analyze.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/midle.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/PVS-Studio.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/PVS-Studio/arr_diff.c.plog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/PVS-Studio/main.c.plog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/cmake-build-debug/target_midle.err" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midle/main.c" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Tc3XW4hj6w4AqLSi3Uve3HEENW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f861bc34-aed1-4e58-af16-32f705c1c060" name="Default Changelist" comment="" />
+      <created>1573745596290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573745596290</updated>
+      <workItem from="1573745597813" duration="1570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
