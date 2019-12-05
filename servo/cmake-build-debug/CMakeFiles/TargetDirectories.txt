@@ -1,0 +1,4 @@
+/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir
+/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/UPLOAD.dir
