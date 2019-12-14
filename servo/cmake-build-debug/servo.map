@@ -70,7 +70,7 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .text.HAL_GetTickPrio
                 0x0000000000000000       0x14 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .rodata        0x0000000000000000       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .rodata        0x0000000000000000       0x4f CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .text.HAL_SetTickFreq
                 0x0000000000000000       0x70 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .text.HAL_GetTickFreq
@@ -157,7 +157,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
- .rodata        0x0000000000000000       0x57 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+ .rodata        0x0000000000000000       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .text.HAL_DMA_Init
                 0x0000000000000000      0x224 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .text.HAL_DMA_DeInit
@@ -191,8 +191,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x88 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .debug_ranges  0x0000000000000000       0x78 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
- .debug_line    0x0000000000000000      0x8fb CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
- .debug_str     0x0000000000000000      0x700 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+ .debug_line    0x0000000000000000      0x8eb CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+ .debug_str     0x0000000000000000      0x6f8 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .debug_frame   0x0000000000000000      0x224 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .ARM.attributes
@@ -200,7 +200,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
- .rodata        0x0000000000000000       0x58 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+ .rodata        0x0000000000000000       0x54 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .text.HAL_EXTI_SetConfigLine
                 0x0000000000000000      0x274 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .text.HAL_EXTI_GetConfigLine
@@ -224,8 +224,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x60 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .debug_ranges  0x0000000000000000       0x50 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
- .debug_line    0x0000000000000000      0x6df CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
- .debug_str     0x0000000000000000      0x501 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+ .debug_line    0x0000000000000000      0x6cf CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
+ .debug_str     0x0000000000000000      0x4f9 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .debug_frame   0x0000000000000000      0x15c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj
  .ARM.attributes
@@ -234,7 +234,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .bss.pFlash    0x0000000000000000       0x20 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
- .rodata        0x0000000000000000       0x59 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+ .rodata        0x0000000000000000       0x55 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .text.HAL_FLASH_Program
                 0x0000000000000000      0x14c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .text.HAL_FLASH_Program_IT
@@ -268,8 +268,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x88 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .debug_ranges  0x0000000000000000       0x78 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
- .debug_line    0x0000000000000000      0x5ca CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
- .debug_str     0x0000000000000000      0x5e3 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+ .debug_line    0x0000000000000000      0x5ba CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
+ .debug_str     0x0000000000000000      0x5db CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .debug_frame   0x0000000000000000      0x20c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj
  .ARM.attributes
@@ -277,7 +277,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
- .rodata        0x0000000000000000       0x5c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+ .rodata        0x0000000000000000       0x58 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .text.HAL_FLASHEx_Erase
                 0x0000000000000000      0x1b8 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .text.HAL_FLASHEx_Erase_IT
@@ -315,8 +315,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x98 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .debug_ranges  0x0000000000000000       0x88 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
- .debug_line    0x0000000000000000      0x820 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
- .debug_str     0x0000000000000000      0x70c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+ .debug_line    0x0000000000000000      0x810 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
+ .debug_str     0x0000000000000000      0x704 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .debug_frame   0x0000000000000000      0x258 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -341,7 +341,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
- .rodata        0x0000000000000000       0x57 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+ .rodata        0x0000000000000000       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2C_Init
                 0x0000000000000000      0x228 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .text.HAL_I2C_DeInit
@@ -503,8 +503,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x288 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .debug_ranges  0x0000000000000000      0x278 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
- .debug_line    0x0000000000000000     0x2f6d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
- .debug_str     0x0000000000000000      0xff2 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+ .debug_line    0x0000000000000000     0x2f5d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+ .debug_str     0x0000000000000000      0xfea CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .debug_frame   0x0000000000000000      0xbbc CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .ARM.attributes
@@ -512,7 +512,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
- .rodata        0x0000000000000000       0x5a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+ .rodata        0x0000000000000000       0x56 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .text.HAL_I2CEx_ConfigAnalogFilter
                 0x0000000000000000       0xd0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .text.HAL_I2CEx_ConfigDigitalFilter
@@ -530,8 +530,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x48 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .debug_ranges  0x0000000000000000       0x38 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
- .debug_line    0x0000000000000000      0x4fd CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
- .debug_str     0x0000000000000000      0x8bd CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+ .debug_line    0x0000000000000000      0x4ed CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+ .debug_str     0x0000000000000000      0x8b5 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .debug_frame   0x0000000000000000       0xe8 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .ARM.attributes
@@ -545,7 +545,7 @@ Discarded input sections
                 0x0000000000000000       0x1c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .text.HAL_PWR_DisableBkUpAccess
                 0x0000000000000000       0x1c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
- .rodata        0x0000000000000000       0x57 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+ .rodata        0x0000000000000000       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .text.HAL_PWR_EnableWakeUpPin
                 0x0000000000000000       0x44 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .text.HAL_PWR_DisableWakeUpPin
@@ -569,8 +569,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x78 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .debug_ranges  0x0000000000000000       0x68 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
- .debug_line    0x0000000000000000      0x388 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
- .debug_str     0x0000000000000000      0x4bb CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+ .debug_line    0x0000000000000000      0x378 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
+ .debug_str     0x0000000000000000      0x4b3 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .debug_frame   0x0000000000000000      0x1a0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj
  .ARM.attributes
@@ -578,7 +578,7 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
- .rodata        0x0000000000000000       0x5a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+ .rodata        0x0000000000000000       0x56 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .text.HAL_PWR_ConfigPVD
                 0x0000000000000000      0x164 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .text.HAL_PWR_EnablePVD
@@ -594,8 +594,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x40 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .debug_ranges  0x0000000000000000       0x30 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
- .debug_line    0x0000000000000000      0x30c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
- .debug_str     0x0000000000000000      0x39b CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000000000000000      0x2fc CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000000000000000      0x393 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .debug_frame   0x0000000000000000       0xb0 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -940,8 +940,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/servo.elf.dir/Src/sys.c.obj
  .debug_ranges  0x0000000000000000       0x10 CMakeFiles/servo.elf.dir/Src/sys.c.obj
- .debug_line    0x0000000000000000      0x1bf CMakeFiles/servo.elf.dir/Src/sys.c.obj
- .debug_str     0x0000000000000000      0x28f CMakeFiles/servo.elf.dir/Src/sys.c.obj
+ .debug_line    0x0000000000000000      0x1af CMakeFiles/servo.elf.dir/Src/sys.c.obj
+ .debug_str     0x0000000000000000      0x287 CMakeFiles/servo.elf.dir/Src/sys.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Src/sys.c.obj
  .debug_frame   0x0000000000000000       0x30 CMakeFiles/servo.elf.dir/Src/sys.c.obj
  .ARM.attributes
@@ -978,8 +978,8 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xb0 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
  .debug_ranges  0x0000000000000000       0xa0 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
- .debug_line    0x0000000000000000      0x3cb CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
- .debug_str     0x0000000000000000      0x856 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
+ .debug_line    0x0000000000000000      0x3c7 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
+ .debug_str     0x0000000000000000      0x84e CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
  .comment       0x0000000000000000       0x1e CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
  .debug_frame   0x0000000000000000      0x2d0 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj
  .ARM.attributes
@@ -1171,7 +1171,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188     0x468c
+.text           0x0000000008000188     0x462c
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -1284,221 +1284,221 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
  .text.MX_GPIO_Init
                 0x00000000080042f4       0x44 CMakeFiles/servo.elf.dir/Src/gpio.c.obj
                 0x00000000080042f4                MX_GPIO_Init
- .text.main     0x0000000008004338       0x7c CMakeFiles/servo.elf.dir/Src/main.c.obj
+ .text.main     0x0000000008004338       0x34 CMakeFiles/servo.elf.dir/Src/main.c.obj
                 0x0000000008004338                main
  .text.SystemClock_Config
-                0x00000000080043b4       0xae CMakeFiles/servo.elf.dir/Src/main.c.obj
-                0x00000000080043b4                SystemClock_Config
+                0x000000000800436c       0xae CMakeFiles/servo.elf.dir/Src/main.c.obj
+                0x000000000800436c                SystemClock_Config
  .text.Error_Handler
-                0x0000000008004462        0xc CMakeFiles/servo.elf.dir/Src/main.c.obj
-                0x0000000008004462                Error_Handler
+                0x000000000800441a        0xc CMakeFiles/servo.elf.dir/Src/main.c.obj
+                0x000000000800441a                Error_Handler
  .text.assert_failed
-                0x000000000800446e       0x14 CMakeFiles/servo.elf.dir/Src/main.c.obj
-                0x000000000800446e                assert_failed
- *fill*         0x0000000008004482        0x2 
+                0x0000000008004426       0x14 CMakeFiles/servo.elf.dir/Src/main.c.obj
+                0x0000000008004426                assert_failed
+ *fill*         0x000000000800443a        0x2 
  .text.HAL_MspInit
-                0x0000000008004484       0x44 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
-                0x0000000008004484                HAL_MspInit
+                0x000000000800443c       0x44 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
+                0x000000000800443c                HAL_MspInit
  .text.NMI_Handler
-                0x00000000080044c8        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044c8                NMI_Handler
+                0x0000000008004480        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x0000000008004480                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080044d4        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044d4                HardFault_Handler
+                0x000000000800448c        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x000000000800448c                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080044da        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044da                MemManage_Handler
+                0x0000000008004492        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x0000000008004492                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080044e0        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044e0                BusFault_Handler
+                0x0000000008004498        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x0000000008004498                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080044e6        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044e6                UsageFault_Handler
+                0x000000000800449e        0x6 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x000000000800449e                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080044ec        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044ec                SVC_Handler
+                0x00000000080044a4        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x00000000080044a4                SVC_Handler
  .text.DebugMon_Handler
-                0x00000000080044f8        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x00000000080044f8                DebugMon_Handler
+                0x00000000080044b0        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x00000000080044b0                DebugMon_Handler
  .text.PendSV_Handler
-                0x0000000008004504        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x0000000008004504                PendSV_Handler
+                0x00000000080044bc        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x00000000080044bc                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008004510        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                0x0000000008004510                SysTick_Handler
+                0x00000000080044c8        0xc CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                0x00000000080044c8                SysTick_Handler
  .text.SystemInit
-                0x000000000800451c       0x18 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
-                0x000000000800451c                SystemInit
+                0x00000000080044d4       0x18 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
+                0x00000000080044d4                SystemInit
  .text.MX_TIM1_Init
-                0x0000000008004534      0x170 CMakeFiles/servo.elf.dir/Src/tim.c.obj
-                0x0000000008004534                MX_TIM1_Init
+                0x00000000080044ec      0x158 CMakeFiles/servo.elf.dir/Src/tim.c.obj
+                0x00000000080044ec                MX_TIM1_Init
  .text.HAL_TIM_Base_MspInit
-                0x00000000080046a4       0x3c CMakeFiles/servo.elf.dir/Src/tim.c.obj
-                0x00000000080046a4                HAL_TIM_Base_MspInit
+                0x0000000008004644       0x3c CMakeFiles/servo.elf.dir/Src/tim.c.obj
+                0x0000000008004644                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x00000000080046e0       0x70 CMakeFiles/servo.elf.dir/Src/tim.c.obj
-                0x00000000080046e0                HAL_TIM_MspPostInit
+                0x0000000008004680       0x70 CMakeFiles/servo.elf.dir/Src/tim.c.obj
+                0x0000000008004680                HAL_TIM_MspPostInit
  .text.Reset_Handler
-                0x0000000008004750       0x50 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
-                0x0000000008004750                Reset_Handler
+                0x00000000080046f0       0x50 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
+                0x00000000080046f0                Reset_Handler
  .text.Default_Handler
-                0x00000000080047a0        0x2 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
-                0x00000000080047a0                RTC_Alarm_IRQHandler
-                0x00000000080047a0                TIM8_TRG_COM_IRQHandler
-                0x00000000080047a0                TIM8_CC_IRQHandler
-                0x00000000080047a0                TIM1_CC_IRQHandler
-                0x00000000080047a0                USB_HP_IRQHandler
-                0x00000000080047a0                PVD_IRQHandler
-                0x00000000080047a0                TAMP_STAMP_IRQHandler
-                0x00000000080047a0                EXTI3_IRQHandler
-                0x00000000080047a0                USB_HP_CAN_TX_IRQHandler
-                0x00000000080047a0                EXTI0_IRQHandler
-                0x00000000080047a0                I2C2_EV_IRQHandler
-                0x00000000080047a0                FPU_IRQHandler
-                0x00000000080047a0                TIM1_UP_TIM16_IRQHandler
-                0x00000000080047a0                ADC1_2_IRQHandler
-                0x00000000080047a0                SPI1_IRQHandler
-                0x00000000080047a0                CAN_SCE_IRQHandler
-                0x00000000080047a0                TIM6_DAC_IRQHandler
-                0x00000000080047a0                TIM8_UP_IRQHandler
-                0x00000000080047a0                DMA2_Channel2_IRQHandler
-                0x00000000080047a0                DMA1_Channel4_IRQHandler
-                0x00000000080047a0                USART3_IRQHandler
-                0x00000000080047a0                DMA1_Channel7_IRQHandler
-                0x00000000080047a0                UART5_IRQHandler
-                0x00000000080047a0                ADC3_IRQHandler
-                0x00000000080047a0                TIM4_IRQHandler
-                0x00000000080047a0                CAN_RX1_IRQHandler
-                0x00000000080047a0                DMA2_Channel1_IRQHandler
-                0x00000000080047a0                I2C1_EV_IRQHandler
-                0x00000000080047a0                DMA1_Channel6_IRQHandler
-                0x00000000080047a0                UART4_IRQHandler
-                0x00000000080047a0                DMA2_Channel4_IRQHandler
-                0x00000000080047a0                TIM3_IRQHandler
-                0x00000000080047a0                RCC_IRQHandler
-                0x00000000080047a0                DMA1_Channel1_IRQHandler
-                0x00000000080047a0                Default_Handler
-                0x00000000080047a0                USBWakeUp_RMP_IRQHandler
-                0x00000000080047a0                EXTI15_10_IRQHandler
-                0x00000000080047a0                TIM7_IRQHandler
-                0x00000000080047a0                EXTI9_5_IRQHandler
-                0x00000000080047a0                RTC_WKUP_IRQHandler
-                0x00000000080047a0                SPI2_IRQHandler
-                0x00000000080047a0                USB_LP_CAN_RX0_IRQHandler
-                0x00000000080047a0                DMA2_Channel5_IRQHandler
-                0x00000000080047a0                DMA1_Channel5_IRQHandler
-                0x00000000080047a0                USB_LP_IRQHandler
-                0x00000000080047a0                EXTI4_IRQHandler
-                0x00000000080047a0                TIM1_TRG_COM_TIM17_IRQHandler
-                0x00000000080047a0                DMA1_Channel3_IRQHandler
-                0x00000000080047a0                ADC4_IRQHandler
-                0x00000000080047a0                WWDG_IRQHandler
-                0x00000000080047a0                TIM2_IRQHandler
-                0x00000000080047a0                COMP7_IRQHandler
-                0x00000000080047a0                COMP1_2_3_IRQHandler
-                0x00000000080047a0                EXTI1_IRQHandler
-                0x00000000080047a0                USART2_IRQHandler
-                0x00000000080047a0                COMP4_5_6_IRQHandler
-                0x00000000080047a0                I2C2_ER_IRQHandler
-                0x00000000080047a0                DMA1_Channel2_IRQHandler
-                0x00000000080047a0                TIM8_BRK_IRQHandler
-                0x00000000080047a0                FLASH_IRQHandler
-                0x00000000080047a0                USART1_IRQHandler
-                0x00000000080047a0                SPI3_IRQHandler
-                0x00000000080047a0                I2C1_ER_IRQHandler
-                0x00000000080047a0                USBWakeUp_IRQHandler
-                0x00000000080047a0                DMA2_Channel3_IRQHandler
-                0x00000000080047a0                EXTI2_TSC_IRQHandler
-                0x00000000080047a0                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x00000000080047a2        0x2 
+                0x0000000008004740        0x2 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
+                0x0000000008004740                RTC_Alarm_IRQHandler
+                0x0000000008004740                TIM8_TRG_COM_IRQHandler
+                0x0000000008004740                TIM8_CC_IRQHandler
+                0x0000000008004740                TIM1_CC_IRQHandler
+                0x0000000008004740                USB_HP_IRQHandler
+                0x0000000008004740                PVD_IRQHandler
+                0x0000000008004740                TAMP_STAMP_IRQHandler
+                0x0000000008004740                EXTI3_IRQHandler
+                0x0000000008004740                USB_HP_CAN_TX_IRQHandler
+                0x0000000008004740                EXTI0_IRQHandler
+                0x0000000008004740                I2C2_EV_IRQHandler
+                0x0000000008004740                FPU_IRQHandler
+                0x0000000008004740                TIM1_UP_TIM16_IRQHandler
+                0x0000000008004740                ADC1_2_IRQHandler
+                0x0000000008004740                SPI1_IRQHandler
+                0x0000000008004740                CAN_SCE_IRQHandler
+                0x0000000008004740                TIM6_DAC_IRQHandler
+                0x0000000008004740                TIM8_UP_IRQHandler
+                0x0000000008004740                DMA2_Channel2_IRQHandler
+                0x0000000008004740                DMA1_Channel4_IRQHandler
+                0x0000000008004740                USART3_IRQHandler
+                0x0000000008004740                DMA1_Channel7_IRQHandler
+                0x0000000008004740                UART5_IRQHandler
+                0x0000000008004740                ADC3_IRQHandler
+                0x0000000008004740                TIM4_IRQHandler
+                0x0000000008004740                CAN_RX1_IRQHandler
+                0x0000000008004740                DMA2_Channel1_IRQHandler
+                0x0000000008004740                I2C1_EV_IRQHandler
+                0x0000000008004740                DMA1_Channel6_IRQHandler
+                0x0000000008004740                UART4_IRQHandler
+                0x0000000008004740                DMA2_Channel4_IRQHandler
+                0x0000000008004740                TIM3_IRQHandler
+                0x0000000008004740                RCC_IRQHandler
+                0x0000000008004740                DMA1_Channel1_IRQHandler
+                0x0000000008004740                Default_Handler
+                0x0000000008004740                USBWakeUp_RMP_IRQHandler
+                0x0000000008004740                EXTI15_10_IRQHandler
+                0x0000000008004740                TIM7_IRQHandler
+                0x0000000008004740                EXTI9_5_IRQHandler
+                0x0000000008004740                RTC_WKUP_IRQHandler
+                0x0000000008004740                SPI2_IRQHandler
+                0x0000000008004740                USB_LP_CAN_RX0_IRQHandler
+                0x0000000008004740                DMA2_Channel5_IRQHandler
+                0x0000000008004740                DMA1_Channel5_IRQHandler
+                0x0000000008004740                USB_LP_IRQHandler
+                0x0000000008004740                EXTI4_IRQHandler
+                0x0000000008004740                TIM1_TRG_COM_TIM17_IRQHandler
+                0x0000000008004740                DMA1_Channel3_IRQHandler
+                0x0000000008004740                ADC4_IRQHandler
+                0x0000000008004740                WWDG_IRQHandler
+                0x0000000008004740                TIM2_IRQHandler
+                0x0000000008004740                COMP7_IRQHandler
+                0x0000000008004740                COMP1_2_3_IRQHandler
+                0x0000000008004740                EXTI1_IRQHandler
+                0x0000000008004740                USART2_IRQHandler
+                0x0000000008004740                COMP4_5_6_IRQHandler
+                0x0000000008004740                I2C2_ER_IRQHandler
+                0x0000000008004740                DMA1_Channel2_IRQHandler
+                0x0000000008004740                TIM8_BRK_IRQHandler
+                0x0000000008004740                FLASH_IRQHandler
+                0x0000000008004740                USART1_IRQHandler
+                0x0000000008004740                SPI3_IRQHandler
+                0x0000000008004740                I2C1_ER_IRQHandler
+                0x0000000008004740                USBWakeUp_IRQHandler
+                0x0000000008004740                DMA2_Channel3_IRQHandler
+                0x0000000008004740                EXTI2_TSC_IRQHandler
+                0x0000000008004740                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x0000000008004742        0x2 
  .text.__libc_init_array
-                0x00000000080047a4       0x48 /usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
-                0x00000000080047a4                __libc_init_array
- .text.memset   0x00000000080047ec       0x10 /usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x00000000080047ec                memset
+                0x0000000008004744       0x48 /usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
+                0x0000000008004744                __libc_init_array
+ .text.memset   0x000000000800478c       0x10 /usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x000000000800478c                memset
  *(.glue_7)
- .glue_7        0x00000000080047fc        0x0 linker stubs
+ .glue_7        0x000000000800479c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080047fc        0x0 linker stubs
+ .glue_7t       0x000000000800479c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080047fc        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x000000000800479c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x00000000080047fc        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crti.o
-                0x00000000080047fc                _init
- .init          0x0000000008004800        0x8 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
+ .init          0x000000000800479c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crti.o
+                0x000000000800479c                _init
+ .init          0x00000000080047a0        0x8 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008004808        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crti.o
-                0x0000000008004808                _fini
- .fini          0x000000000800480c        0x8 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
-                0x0000000008004814                . = ALIGN (0x4)
-                0x0000000008004814                _etext = .
+ .fini          0x00000000080047a8        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crti.o
+                0x00000000080047a8                _fini
+ .fini          0x00000000080047ac        0x8 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
+                0x00000000080047b4                . = ALIGN (0x4)
+                0x00000000080047b4                _etext = .
 
-.vfp11_veneer   0x0000000008004814        0x0
- .vfp11_veneer  0x0000000008004814        0x0 linker stubs
+.vfp11_veneer   0x00000000080047b4        0x0
+ .vfp11_veneer  0x00000000080047b4        0x0 linker stubs
 
-.v4_bx          0x0000000008004814        0x0
- .v4_bx         0x0000000008004814        0x0 linker stubs
+.v4_bx          0x00000000080047b4        0x0
+ .v4_bx         0x00000000080047b4        0x0 linker stubs
 
-.iplt           0x0000000008004814        0x0
- .iplt          0x0000000008004814        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x00000000080047b4        0x0
+ .iplt          0x00000000080047b4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x0000000008004814      0x26c
-                0x0000000008004814                . = ALIGN (0x4)
+.rodata         0x00000000080047b4      0x254
+                0x00000000080047b4                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008004814       0x5a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- *fill*         0x000000000800486e        0x2 
- .rodata        0x0000000008004870       0x58 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .rodata        0x00000000080048c8       0x57 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- *fill*         0x000000000800491f        0x1 
- .rodata        0x0000000008004920       0x7c CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .rodata        0x000000000800499c       0x57 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- *fill*         0x00000000080049f3        0x1 
- .rodata        0x00000000080049f4       0x5a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .rodata        0x00000000080047b4       0x56 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ *fill*         0x000000000800480a        0x2 
+ .rodata        0x000000000800480c       0x54 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .rodata        0x0000000008004860       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ *fill*         0x00000000080048b3        0x1 
+ .rodata        0x00000000080048b4       0x78 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .rodata        0x000000000800492c       0x53 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ *fill*         0x000000000800497f        0x1 
+ .rodata        0x0000000008004980       0x56 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
  *(.rodata*)
- *fill*         0x0000000008004a4e        0x2 
+ *fill*         0x00000000080049d6        0x2 
  .rodata.aPLLMULFactorTable
-                0x0000000008004a50       0x10 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x0000000008004a50                aPLLMULFactorTable
+                0x00000000080049d8       0x10 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x00000000080049d8                aPLLMULFactorTable
  .rodata.aPredivFactorTable
-                0x0000000008004a60       0x10 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x0000000008004a60                aPredivFactorTable
+                0x00000000080049e8       0x10 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x00000000080049e8                aPredivFactorTable
  .rodata.AHBPrescTable
-                0x0000000008004a70       0x10 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
-                0x0000000008004a70                AHBPrescTable
-                0x0000000008004a80                . = ALIGN (0x4)
+                0x00000000080049f8       0x10 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
+                0x00000000080049f8                AHBPrescTable
+                0x0000000008004a08                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008004a80        0x0
- .rel.iplt      0x0000000008004a80        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008004a08        0x0
+ .rel.iplt      0x0000000008004a08        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008004a80        0x0
-                0x0000000008004a80                __exidx_start = .
+.ARM            0x0000000008004a08        0x0
+                0x0000000008004a08                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008004a80                __exidx_end = .
+                0x0000000008004a08                __exidx_end = .
 
-.preinit_array  0x0000000008004a80        0x0
-                0x0000000008004a80                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008004a08        0x0
+                0x0000000008004a08                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008004a80                PROVIDE (__preinit_array_end = .)
+                0x0000000008004a08                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008004a80        0x4
-                0x0000000008004a80                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008004a08        0x4
+                0x0000000008004a08                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008004a80        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
-                0x0000000008004a84                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008004a08        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000008004a0c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008004a84        0x4
-                0x0000000008004a84                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008004a0c        0x4
+                0x0000000008004a0c                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008004a84        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
-                0x0000000008004a88                PROVIDE (__fini_array_end = .)
-                0x0000000008004a88                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008004a0c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000008004a10                PROVIDE (__fini_array_end = .)
+                0x0000000008004a10                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0xc load address 0x0000000008004a88
+.data           0x0000000020000000        0xc load address 0x0000000008004a10
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1515,12 +1515,12 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtn.o
                 0x0000000020000008                SystemCoreClock
                 0x000000002000000c                . = ALIGN (0x4)
                 0x000000002000000c                _edata = .
-                0x0000000008004a94                _siccmram = LOADADDR (.ccmram)
+                0x0000000008004a1c                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x000000002000000c        0x0 load address 0x0000000008004a94
+.igot.plt       0x000000002000000c        0x0 load address 0x0000000008004a1c
  .igot.plt      0x000000002000000c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.0/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008004a94
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008004a1c
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -1686,51 +1686,51 @@ OUTPUT(servo.elf elf32-littlearm)
  .debug_ranges  0x0000000000000878       0x28 CMakeFiles/servo.elf.dir/Src/tim.c.obj
  .debug_ranges  0x00000000000008a0       0x20 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
 
-.debug_line     0x0000000000000000     0x9d8d
- .debug_line    0x0000000000000000      0x4ca CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_line    0x00000000000004ca      0x93d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_line    0x0000000000000e07      0x79a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_line    0x00000000000015a1     0x10a9 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_line    0x000000000000264a      0x9c6 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_line    0x0000000000003010     0x4783 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_line    0x0000000000007793     0x15ca CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000008d5d      0x1d7 CMakeFiles/servo.elf.dir/Src/gpio.c.obj
- .debug_line    0x0000000000008f34      0x389 CMakeFiles/servo.elf.dir/Src/main.c.obj
- .debug_line    0x00000000000092bd      0x1e5 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
- .debug_line    0x00000000000094a2      0x27e CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
- .debug_line    0x0000000000009720      0x26a CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
- .debug_line    0x000000000000998a      0x366 CMakeFiles/servo.elf.dir/Src/tim.c.obj
- .debug_line    0x0000000000009cf0       0x9d CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
+.debug_line     0x0000000000000000     0x9c43
+ .debug_line    0x0000000000000000      0x4ba CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_line    0x00000000000004ba      0x92d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_line    0x0000000000000de7      0x78a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_line    0x0000000000001571     0x1099 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_line    0x000000000000260a      0x9b6 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000002fc0     0x4773 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_line    0x0000000000007733     0x15ba CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_line    0x0000000000008ced      0x1c7 CMakeFiles/servo.elf.dir/Src/gpio.c.obj
+ .debug_line    0x0000000000008eb4      0x310 CMakeFiles/servo.elf.dir/Src/main.c.obj
+ .debug_line    0x00000000000091c4      0x1d5 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
+ .debug_line    0x0000000000009399      0x26e CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+ .debug_line    0x0000000000009607      0x25a CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
+ .debug_line    0x0000000000009861      0x349 CMakeFiles/servo.elf.dir/Src/tim.c.obj
+ .debug_line    0x0000000000009baa       0x99 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
 
-.debug_str      0x0000000000000000     0x318b
- .debug_str     0x0000000000000000      0x960 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                                        0x9c4 (size before relaxing)
- .debug_str     0x0000000000000960      0x548 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                                        0xc44 (size before relaxing)
- .debug_str     0x0000000000000ea8      0x207 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                                        0x51f (size before relaxing)
- .debug_str     0x00000000000010af      0x351 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                                        0x6fc (size before relaxing)
- .debug_str     0x0000000000001400      0x24e CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-                                        0x5b8 (size before relaxing)
- .debug_str     0x000000000000164e     0x1247 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                                       0x1587 (size before relaxing)
- .debug_str     0x0000000000002895      0x60f CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                                        0xd8e (size before relaxing)
- .debug_str     0x0000000000002ea4       0x3a CMakeFiles/servo.elf.dir/Src/gpio.c.obj
-                                        0x2eb (size before relaxing)
- .debug_str     0x0000000000002ede       0x71 CMakeFiles/servo.elf.dir/Src/main.c.obj
-                                        0x93f (size before relaxing)
- .debug_str     0x0000000000002f4f       0x3a CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
-                                        0x2f7 (size before relaxing)
- .debug_str     0x0000000000002f89       0xc5 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
-                                        0x31c (size before relaxing)
- .debug_str     0x000000000000304e       0x6f CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
-                                        0x381 (size before relaxing)
- .debug_str     0x00000000000030bd       0x80 CMakeFiles/servo.elf.dir/Src/tim.c.obj
-                                        0x9c7 (size before relaxing)
- .debug_str     0x000000000000313d       0x4e CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
-                                         0x82 (size before relaxing)
+.debug_str      0x0000000000000000     0x314f
+ .debug_str     0x0000000000000000      0x958 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                                        0x9bc (size before relaxing)
+ .debug_str     0x0000000000000958      0x544 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                                        0xc3c (size before relaxing)
+ .debug_str     0x0000000000000e9c      0x203 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                                        0x517 (size before relaxing)
+ .debug_str     0x000000000000109f      0x34d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                                        0x6f4 (size before relaxing)
+ .debug_str     0x00000000000013ec      0x24a CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                                        0x5b0 (size before relaxing)
+ .debug_str     0x0000000000001636     0x1243 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                                       0x157f (size before relaxing)
+ .debug_str     0x0000000000002879      0x60b CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                                        0xd86 (size before relaxing)
+ .debug_str     0x0000000000002e84       0x36 CMakeFiles/servo.elf.dir/Src/gpio.c.obj
+                                        0x2e3 (size before relaxing)
+ .debug_str     0x0000000000002eba       0x6d CMakeFiles/servo.elf.dir/Src/main.c.obj
+                                        0x937 (size before relaxing)
+ .debug_str     0x0000000000002f27       0x36 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj
+                                        0x2ef (size before relaxing)
+ .debug_str     0x0000000000002f5d       0xc1 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj
+                                        0x314 (size before relaxing)
+ .debug_str     0x000000000000301e       0x6b CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj
+                                        0x379 (size before relaxing)
+ .debug_str     0x0000000000003089       0x7c CMakeFiles/servo.elf.dir/Src/tim.c.obj
+                                        0x9bf (size before relaxing)
+ .debug_str     0x0000000000003105       0x4a CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
+                                         0x7a (size before relaxing)
 
 .comment        0x0000000000000000       0x1d
  .comment       0x0000000000000000       0x1d CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj

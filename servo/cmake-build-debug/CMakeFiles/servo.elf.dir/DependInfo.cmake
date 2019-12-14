@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/fenix/pr/subj/prepare/servo/startup/startup_stm32f303xc.s" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj"
+  "/home/fenix/pr/subj/POK/servo/startup/startup_stm32f303xc.s" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -26,29 +26,29 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/gpio.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/gpio.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/main.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/main.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_hal_msp.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/sys.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/sys.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/syscalls.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/syscalls.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/system_stm32f3xx.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj"
-  "/home/fenix/pr/subj/prepare/servo/Src/tim.c" "/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/tim.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/gpio.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/gpio.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/main.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/main.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/stm32f3xx_hal_msp.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/sys.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/sys.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/syscalls.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/syscalls.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/system_stm32f3xx.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj"
+  "/home/fenix/pr/subj/POK/servo/Src/tim.c" "/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/tim.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

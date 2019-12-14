@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fenix/pr/subj/prepare/servo
+CMAKE_SOURCE_DIR = /home/fenix/pr/subj/POK/servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fenix/pr/subj/prepare/servo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fenix/pr/subj/POK/servo/cmake-build-debug
 
 # Utility rule file for UPLOAD.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/fenix/pr/subj/prepare/servo/cmake-build-debug
 include CMakeFiles/UPLOAD.dir/progress.make
 
 CMakeFiles/UPLOAD:
-	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.elf -iex monitor\ reset\ init -iex disconnect -iex quit
+	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.elf -iex monitor\ reset\ init -iex disconnect -iex quit
 
 UPLOAD: CMakeFiles/UPLOAD
 UPLOAD: CMakeFiles/UPLOAD.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/UPLOAD.dir/clean:
 .PHONY : CMakeFiles/UPLOAD.dir/clean
 
 CMakeFiles/UPLOAD.dir/depend:
-	cd /home/fenix/pr/subj/prepare/servo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fenix/pr/subj/prepare/servo /home/fenix/pr/subj/prepare/servo /home/fenix/pr/subj/prepare/servo/cmake-build-debug /home/fenix/pr/subj/prepare/servo/cmake-build-debug /home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fenix/pr/subj/POK/servo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fenix/pr/subj/POK/servo /home/fenix/pr/subj/POK/servo /home/fenix/pr/subj/POK/servo/cmake-build-debug /home/fenix/pr/subj/POK/servo/cmake-build-debug /home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UPLOAD.dir/depend
 

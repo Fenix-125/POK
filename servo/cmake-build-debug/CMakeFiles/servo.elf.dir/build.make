@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fenix/pr/subj/prepare/servo
+CMAKE_SOURCE_DIR = /home/fenix/pr/subj/POK/servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fenix/pr/subj/prepare/servo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fenix/pr/subj/POK/servo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servo.elf.dir/depend.make
@@ -59,307 +59,307 @@ include CMakeFiles/servo.elf.dir/flags.make
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.s
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj   -c /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj   -c /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c > CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i
 
 CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c -o CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
 
 CMakeFiles/servo.elf.dir/Src/gpio.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/servo.elf.dir/Src/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/gpio.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/servo.elf.dir/Src/gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/gpio.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/gpio.c
 
 CMakeFiles/servo.elf.dir/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/gpio.c > CMakeFiles/servo.elf.dir/Src/gpio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/gpio.c > CMakeFiles/servo.elf.dir/Src/gpio.c.i
 
 CMakeFiles/servo.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/gpio.c -o CMakeFiles/servo.elf.dir/Src/gpio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/gpio.c -o CMakeFiles/servo.elf.dir/Src/gpio.c.s
 
 CMakeFiles/servo.elf.dir/Src/main.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/servo.elf.dir/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/main.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/servo.elf.dir/Src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/main.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/main.c
 
 CMakeFiles/servo.elf.dir/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/main.c > CMakeFiles/servo.elf.dir/Src/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/main.c > CMakeFiles/servo.elf.dir/Src/main.c.i
 
 CMakeFiles/servo.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/main.c -o CMakeFiles/servo.elf.dir/Src/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/main.c -o CMakeFiles/servo.elf.dir/Src/main.c.s
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj: ../Src/stm32f3xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_hal_msp.c
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_hal_msp.c > CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_hal_msp.c > CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.i
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_hal_msp.c -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_hal_msp.c -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.s
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj: ../Src/stm32f3xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.c
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.c > CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.c > CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.i
 
 CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.c -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.c -o CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.s
 
 CMakeFiles/servo.elf.dir/Src/sys.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/sys.c.obj: ../Src/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/servo.elf.dir/Src/sys.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/sys.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/servo.elf.dir/Src/sys.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/sys.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/sys.c
 
 CMakeFiles/servo.elf.dir/Src/sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/sys.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/sys.c > CMakeFiles/servo.elf.dir/Src/sys.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/sys.c > CMakeFiles/servo.elf.dir/Src/sys.c.i
 
 CMakeFiles/servo.elf.dir/Src/sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/sys.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/sys.c -o CMakeFiles/servo.elf.dir/Src/sys.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/sys.c -o CMakeFiles/servo.elf.dir/Src/sys.c.s
 
 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/servo.elf.dir/Src/syscalls.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/syscalls.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/servo.elf.dir/Src/syscalls.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/syscalls.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/syscalls.c
 
 CMakeFiles/servo.elf.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/syscalls.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/syscalls.c > CMakeFiles/servo.elf.dir/Src/syscalls.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/syscalls.c > CMakeFiles/servo.elf.dir/Src/syscalls.c.i
 
 CMakeFiles/servo.elf.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/syscalls.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/syscalls.c -o CMakeFiles/servo.elf.dir/Src/syscalls.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/syscalls.c -o CMakeFiles/servo.elf.dir/Src/syscalls.c.s
 
 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj: ../Src/system_stm32f3xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/system_stm32f3xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/system_stm32f3xx.c
 
 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/system_stm32f3xx.c > CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/system_stm32f3xx.c > CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.i
 
 CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/system_stm32f3xx.c -o CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/system_stm32f3xx.c -o CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.s
 
 CMakeFiles/servo.elf.dir/Src/tim.c.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/servo.elf.dir/Src/tim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/tim.c.obj   -c /home/fenix/pr/subj/prepare/servo/Src/tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/servo.elf.dir/Src/tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/servo.elf.dir/Src/tim.c.obj   -c /home/fenix/pr/subj/POK/servo/Src/tim.c
 
 CMakeFiles/servo.elf.dir/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/servo.elf.dir/Src/tim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/prepare/servo/Src/tim.c > CMakeFiles/servo.elf.dir/Src/tim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/servo/Src/tim.c > CMakeFiles/servo.elf.dir/Src/tim.c.i
 
 CMakeFiles/servo.elf.dir/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/servo.elf.dir/Src/tim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/prepare/servo/Src/tim.c -o CMakeFiles/servo.elf.dir/Src/tim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/servo/Src/tim.c -o CMakeFiles/servo.elf.dir/Src/tim.c.s
 
 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj: CMakeFiles/servo.elf.dir/flags.make
 CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj: ../startup/startup_stm32f303xc.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj -c /home/fenix/pr/subj/prepare/servo/startup/startup_stm32f303xc.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj -c /home/fenix/pr/subj/POK/servo/startup/startup_stm32f303xc.s
 
 # Object files for target servo.elf
 servo_elf_OBJECTS = \
@@ -417,12 +417,12 @@ servo.elf: CMakeFiles/servo.elf.dir/Src/tim.c.obj
 servo.elf: CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj
 servo.elf: CMakeFiles/servo.elf.dir/build.make
 servo.elf: CMakeFiles/servo.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable servo.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable servo.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/servo.elf.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.bin"
-	arm-none-eabi-objcopy -Oihex /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.elf /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.hex
-	arm-none-eabi-objcopy -Obinary /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.elf /home/fenix/pr/subj/prepare/servo/cmake-build-debug/servo.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.bin"
+	arm-none-eabi-objcopy -Oihex /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.elf /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.hex
+	arm-none-eabi-objcopy -Obinary /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.elf /home/fenix/pr/subj/POK/servo/cmake-build-debug/servo.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/servo.elf.dir/build: servo.elf
@@ -434,6 +434,6 @@ CMakeFiles/servo.elf.dir/clean:
 .PHONY : CMakeFiles/servo.elf.dir/clean
 
 CMakeFiles/servo.elf.dir/depend:
-	cd /home/fenix/pr/subj/prepare/servo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fenix/pr/subj/prepare/servo /home/fenix/pr/subj/prepare/servo /home/fenix/pr/subj/prepare/servo/cmake-build-debug /home/fenix/pr/subj/prepare/servo/cmake-build-debug /home/fenix/pr/subj/prepare/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fenix/pr/subj/POK/servo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fenix/pr/subj/POK/servo /home/fenix/pr/subj/POK/servo /home/fenix/pr/subj/POK/servo/cmake-build-debug /home/fenix/pr/subj/POK/servo/cmake-build-debug /home/fenix/pr/subj/POK/servo/cmake-build-debug/CMakeFiles/servo.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/servo.elf.dir/depend
 

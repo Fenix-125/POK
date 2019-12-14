@@ -274,93 +274,93 @@ main.h
 main.h
 ../Inc/main.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
 stm32f3xx_hal.h
-/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
+/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.h
 
-/home/fenix/pr/subj/prepare/servo/Src/gpio.c
+/home/fenix/pr/subj/POK/servo/Src/gpio.c
 gpio.h
-/home/fenix/pr/subj/prepare/servo/Src/gpio.h
+/home/fenix/pr/subj/POK/servo/Src/gpio.h
 
-/home/fenix/pr/subj/prepare/servo/Src/main.c
+/home/fenix/pr/subj/POK/servo/Src/main.c
 main.h
-/home/fenix/pr/subj/prepare/servo/Src/main.h
+/home/fenix/pr/subj/POK/servo/Src/main.h
 tim.h
-/home/fenix/pr/subj/prepare/servo/Src/tim.h
+/home/fenix/pr/subj/POK/servo/Src/tim.h
 gpio.h
-/home/fenix/pr/subj/prepare/servo/Src/gpio.h
+/home/fenix/pr/subj/POK/servo/Src/gpio.h
 
-/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_hal_msp.c
+/home/fenix/pr/subj/POK/servo/Src/stm32f3xx_hal_msp.c
 main.h
-/home/fenix/pr/subj/prepare/servo/Src/main.h
+/home/fenix/pr/subj/POK/servo/Src/main.h
 
-/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.c
+/home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.c
 main.h
-/home/fenix/pr/subj/prepare/servo/Src/main.h
+/home/fenix/pr/subj/POK/servo/Src/main.h
 stm32f3xx_it.h
-/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx_it.h
+/home/fenix/pr/subj/POK/servo/Src/stm32f3xx_it.h
 
-/home/fenix/pr/subj/prepare/servo/Src/sys.c
+/home/fenix/pr/subj/POK/servo/Src/sys.c
 sys.h
-/home/fenix/pr/subj/prepare/servo/Src/sys.h
+/home/fenix/pr/subj/POK/servo/Src/sys.h
 
-/home/fenix/pr/subj/prepare/servo/Src/syscalls.c
+/home/fenix/pr/subj/POK/servo/Src/syscalls.c
 sys/stat.h
 -
 stdlib.h
@@ -378,11 +378,11 @@ sys/time.h
 sys/times.h
 -
 
-/home/fenix/pr/subj/prepare/servo/Src/system_stm32f3xx.c
+/home/fenix/pr/subj/POK/servo/Src/system_stm32f3xx.c
 stm32f3xx.h
-/home/fenix/pr/subj/prepare/servo/Src/stm32f3xx.h
+/home/fenix/pr/subj/POK/servo/Src/stm32f3xx.h
 
-/home/fenix/pr/subj/prepare/servo/Src/tim.c
+/home/fenix/pr/subj/POK/servo/Src/tim.c
 tim.h
-/home/fenix/pr/subj/prepare/servo/Src/tim.h
+/home/fenix/pr/subj/POK/servo/Src/tim.h
 

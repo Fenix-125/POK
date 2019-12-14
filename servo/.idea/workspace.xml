@@ -12,7 +12,60 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c7ac6-f7c1-4f6a-98b5-16934d0a8b2d" name="Default Changelist" comment="" />
+    <list default="true" id="4b5c7ac6-f7c1-4f6a-98b5-16934d0a8b2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_5_2_counter/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_5_2_counter/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F3DISCOVERY.xml" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F3DISCOVERY.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/gpio.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/stm32f3xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/sys.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/sys.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/syscalls.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/system_stm32f3xx.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/Src/tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/servo.elf.dir/startup/startup_stm32f303xc.s.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/servo.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servo.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/servo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/servo.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servo.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/servo.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servo.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/servo.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/servo.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,16 +75,21 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="HahhERap" />
   </component>
   <component name="ProjectId" id="1ScU7GBibzXZ3rgPsSeyxmSpA5x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -89,6 +147,9 @@
       <workItem from="1572017337407" duration="599000" />
       <workItem from="1575279575514" duration="116000" />
       <workItem from="1575446578051" duration="3403000" />
+      <workItem from="1576068913200" duration="2528000" />
+      <workItem from="1576076285894" duration="2425000" />
+      <workItem from="1576174960974" duration="827000" />
     </task>
     <servers />
   </component>
@@ -96,34 +157,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="685" y="237" width="530" height="634" key="FileChooserDialogImpl" timestamp="1575447550865">
+    <state x="414" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576079004045">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="685" y="237" width="530" height="634" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1575447550865" />
-    <state width="931" height="360" key="GridCell.Tab.0.bottom" timestamp="1575468442780">
-      <screen x="0" y="28" width="1920" height="2132" />
+    <state x="414" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1576079004045" />
+    <state x="850" y="309" width="530" height="634" key="FileChooserDialogImpl" timestamp="1576070468157">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="931" height="360" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1575450577560" />
+    <state x="850" y="309" width="530" height="634" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1576070468157" />
+    <state width="1862" height="330" key="GridCell.Tab.0.bottom" timestamp="1576071471447">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1862" height="330" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1576071471447" />
     <state width="931" height="360" key="GridCell.Tab.0.bottom/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
-    <state width="931" height="360" key="GridCell.Tab.0.center" timestamp="1575468442780">
-      <screen x="0" y="28" width="1920" height="2132" />
-    </state>
-    <state width="931" height="360" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1575450577559" />
-    <state width="931" height="360" key="GridCell.Tab.0.center/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
-    <state width="931" height="360" key="GridCell.Tab.0.left" timestamp="1575468442780">
-      <screen x="0" y="28" width="1920" height="2132" />
-    </state>
-    <state width="931" height="360" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1575450577559" />
-    <state width="931" height="360" key="GridCell.Tab.0.left/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
-    <state width="931" height="360" key="GridCell.Tab.0.right" timestamp="1575468442780">
-      <screen x="0" y="28" width="1920" height="2132" />
-    </state>
-    <state width="931" height="360" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1575450577560" />
-    <state width="931" height="360" key="GridCell.Tab.0.right/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
-    <state x="297" y="109" key="SettingsEditor" timestamp="1575447419571">
+    <state width="1862" height="330" key="GridCell.Tab.0.center" timestamp="1576071471446">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="297" y="109" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1575447419571" />
+    <state width="1862" height="330" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1576071471446" />
+    <state width="931" height="360" key="GridCell.Tab.0.center/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
+    <state width="1862" height="330" key="GridCell.Tab.0.left" timestamp="1576071471445">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1862" height="330" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1576071471445" />
+    <state width="931" height="360" key="GridCell.Tab.0.left/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
+    <state width="1862" height="330" key="GridCell.Tab.0.right" timestamp="1576071471447">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1862" height="330" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1576071471447" />
+    <state width="931" height="360" key="GridCell.Tab.0.right/0.28.1920.2132@0.28.1920.2132" timestamp="1575468442780" />
+    <state x="522" y="70" key="SettingsEditor" timestamp="1576078509362">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="522" y="70" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1576078509362" />
+    <state x="652" y="137" width="606" height="834" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576070388558">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="652" y="137" width="606" height="834" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1576070388558" />
     <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1575447427557">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>

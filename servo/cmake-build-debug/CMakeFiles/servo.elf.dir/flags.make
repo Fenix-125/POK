@@ -7,11 +7,11 @@ ASM_FLAGS = -g
 
 ASM_DEFINES = -DSTM32F303xC -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-ASM_INCLUDES = -I/home/fenix/pr/subj/prepare/servo/Inc -I/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/fenix/pr/subj/prepare/servo/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/fenix/pr/subj/prepare/servo/Drivers/CMSIS/Include 
+ASM_INCLUDES = -I/home/fenix/pr/subj/POK/servo/Inc -I/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/fenix/pr/subj/POK/servo/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/fenix/pr/subj/POK/servo/Drivers/CMSIS/Include 
 
 C_FLAGS = -mcpu=cortex-m4  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99 -g  
 
 C_DEFINES = -DSTM32F303xC -DUSE_HAL_DRIVER -D__packed="__attribute__((__packed__))" -D__weak="__attribute__((weak))"
 
-C_INCLUDES = -I/home/fenix/pr/subj/prepare/servo/Inc -I/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/fenix/pr/subj/prepare/servo/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/fenix/pr/subj/prepare/servo/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/fenix/pr/subj/prepare/servo/Drivers/CMSIS/Include 
+C_INCLUDES = -I/home/fenix/pr/subj/POK/servo/Inc -I/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Inc -I/home/fenix/pr/subj/POK/servo/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/home/fenix/pr/subj/POK/servo/Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/home/fenix/pr/subj/POK/servo/Drivers/CMSIS/Include 
 

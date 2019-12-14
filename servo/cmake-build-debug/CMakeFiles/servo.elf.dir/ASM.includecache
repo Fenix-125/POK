@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/fenix/pr/subj/prepare/servo/startup/startup_stm32f303xc.s
+/home/fenix/pr/subj/POK/servo/startup/startup_stm32f303xc.s
 
