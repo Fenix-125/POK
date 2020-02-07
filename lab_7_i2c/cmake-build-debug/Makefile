@@ -474,6 +474,60 @@ Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s:
 	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.obj
+
+# target to build an object file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s
+
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s
+
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
 
 .PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj
@@ -716,6 +770,33 @@ Src/main.s: Src/main.c.s
 Src/main.c.s:
 	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.s
 .PHONY : Src/main.c.s
+
+Src/spi.obj: Src/spi.c.obj
+
+.PHONY : Src/spi.obj
+
+# target to build an object file
+Src/spi.c.obj:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj
+.PHONY : Src/spi.c.obj
+
+Src/spi.i: Src/spi.c.i
+
+.PHONY : Src/spi.i
+
+# target to preprocess a source file
+Src/spi.c.i:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.i
+.PHONY : Src/spi.c.i
+
+Src/spi.s: Src/spi.c.s
+
+.PHONY : Src/spi.s
+
+# target to generate assembly for a file
+Src/spi.c.s:
+	$(MAKE) -f CMakeFiles/lab_7_i2c.elf.dir/build.make CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.s
+.PHONY : Src/spi.c.s
 
 Src/stm32f3_discovery.obj: Src/stm32f3_discovery.c.obj
 
@@ -1017,6 +1098,12 @@ help:
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.obj"
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.i"
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.s"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.obj"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.i"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.s"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.obj"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.i"
+	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.s"
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.obj"
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.i"
 	@echo "... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.s"
@@ -1044,6 +1131,9 @@ help:
 	@echo "... Src/main.obj"
 	@echo "... Src/main.i"
 	@echo "... Src/main.s"
+	@echo "... Src/spi.obj"
+	@echo "... Src/spi.i"
+	@echo "... Src/spi.s"
 	@echo "... Src/stm32f3_discovery.obj"
 	@echo "... Src/stm32f3_discovery.i"
 	@echo "... Src/stm32f3_discovery.s"

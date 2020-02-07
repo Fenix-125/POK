@@ -1,0 +1,36 @@
+//
+// Created by fenix on 1/22/20.
+//
+
+#include "mux_3_8.h"
+
+void set_bit_to(uint16_t * reg_ref, uint8_t pos, bool val) {
+    if (val) {
+        *reg_ref |= 1 << pos;
+    } else {
+        *reg_ref &= ~(1 << pos);
+    }
+}
+
+void set_mux_3_8_input(uint8_t input) {
+    IN_PORT->ORD &= 0xFFFFFF00;
+    IN_PORT->ORD |= (uint32_t) input;
+}
+
+void set_mux_3_8_state(uint8_t state) {
+    set_bit_to(STATE_PORT.ORD, 0, (bool) READ_BIT(state, 1));
+    set_bit_to(STATE_PORT.ORD, 1, (bool) READ_BIT(state, 2));
+    set_bit_to(STATE_PORT.ORD, 2, (bool) READ_BIT(state, 4));
+}
+
+void set_mux_3_8_enable(bool enable) {
+    set_bit_to(IN_PORT->ORD, ENABLE, enable);
+}
+
+bool read_mux_3_8_OUT() {
+    return (bool) READ_BIT(OUT_PORT->ORD, 1 << OUT)
+}
+
+bool read_mux_3_8_NOUT() {
+    return (bool) READ_BIT(OUT_PORT->ORD, 1 << NOUT)
+}

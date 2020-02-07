@@ -34,31 +34,32 @@
   *
   ******************************************************************************
   */
-  
+
 
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __L3GD20_H
 #define __L3GD20_H
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
 #include "gyro.h"
-
+#include "stm32f3_discovery.h"
+#include "lsm303dlhc.h"
 /** @addtogroup BSP
   * @{
-  */ 
+  */
 
 /** @addtogroup Components
   * @{
-  */ 
+  */
 
 /** @addtogroup L3GD20
   * @{
   */
-  
+
 /** @defgroup L3GD20_Exported_Constants
   * @{
   */
@@ -66,6 +67,8 @@
 /******************************************************************************/
 /*************************** START REGISTER MAPPING  **************************/
 /******************************************************************************/
+#define L3GD20_I2C_ADDR               0x0F  /* device I2C address */
+
 #define L3GD20_WHO_AM_I_ADDR          0x0F  /* device identification register */
 #define L3GD20_CTRL_REG1_ADDR         0x20  /* Control register 1 */
 #define L3GD20_CTRL_REG2_ADDR         0x21  /* Control register 2 */
@@ -80,7 +83,7 @@
 #define L3GD20_OUT_Y_L_ADDR           0x2A  /* Output Register Y */
 #define L3GD20_OUT_Y_H_ADDR           0x2B  /* Output Register Y */
 #define L3GD20_OUT_Z_L_ADDR           0x2C  /* Output Register Z */
-#define L3GD20_OUT_Z_H_ADDR           0x2D  /* Output Register Z */ 
+#define L3GD20_OUT_Z_H_ADDR           0x2D  /* Output Register Z */
 #define L3GD20_FIFO_CTRL_REG_ADDR     0x2E  /* Fifo control Register */
 #define L3GD20_FIFO_SRC_REG_ADDR      0x2F  /* Fifo src Register */
 
@@ -117,9 +120,7 @@
 #define L3GD20_OUTPUT_DATARATE_2    ((uint8_t)0x40)
 #define L3GD20_OUTPUT_DATARATE_3    ((uint8_t)0x80)
 #define L3GD20_OUTPUT_DATARATE_4    ((uint8_t)0xC0)
-/**
-  * @}
-  */
+
 
 /** @defgroup Axes_Selection 
   * @{
@@ -129,9 +130,7 @@
 #define L3GD20_Z_ENABLE            ((uint8_t)0x04)
 #define L3GD20_AXES_ENABLE         ((uint8_t)0x07)
 #define L3GD20_AXES_DISABLE        ((uint8_t)0x00)
-/**
-  * @}
-  */
+
 
 /** @defgroup Bandwidth_Selection 
   * @{
@@ -140,20 +139,16 @@
 #define L3GD20_BANDWIDTH_2         ((uint8_t)0x10)
 #define L3GD20_BANDWIDTH_3         ((uint8_t)0x20)
 #define L3GD20_BANDWIDTH_4         ((uint8_t)0x30)
-/**
-  * @}
-  */
+
 
 /** @defgroup Full_Scale_Selection 
   * @{
   */
 #define L3GD20_FULLSCALE_250       ((uint8_t)0x00)
 #define L3GD20_FULLSCALE_500       ((uint8_t)0x10)
-#define L3GD20_FULLSCALE_2000      ((uint8_t)0x20) 
+#define L3GD20_FULLSCALE_2000      ((uint8_t)0x20)
 #define L3GD20_FULLSCALE_SELECTION ((uint8_t)0x30)
-/**
-  * @}
-  */
+
 
 /** @defgroup Full_Scale_Sensitivity 
   * @{
@@ -161,97 +156,74 @@
 #define L3GD20_SENSITIVITY_250DPS  ((float)8.75f)         /*!< gyroscope sensitivity with 250 dps full scale [DPS/LSB]  */
 #define L3GD20_SENSITIVITY_500DPS  ((float)17.50f)        /*!< gyroscope sensitivity with 500 dps full scale [DPS/LSB]  */
 #define L3GD20_SENSITIVITY_2000DPS ((float)70.00f)        /*!< gyroscope sensitivity with 2000 dps full scale [DPS/LSB] */
-/**
-  * @}
-  */
 
-  
+
 /** @defgroup Block_Data_Update 
   * @{
-  */  
+  */
 #define L3GD20_BlockDataUpdate_Continous   ((uint8_t)0x00)
 #define L3GD20_BlockDataUpdate_Single      ((uint8_t)0x80)
-/**
-  * @}
-  */
-  
+
+
 /** @defgroup Endian_Data_selection
   * @{
-  */  
-#define L3GD20_BLE_LSB                     ((uint8_t)0x00)
-#define L3GD20_BLE_MSB	                   ((uint8_t)0x40)
-/**
-  * @}
   */
-  
+#define L3GD20_BLE_LSB                     ((uint8_t)0x00)
+#define L3GD20_BLE_MSB                       ((uint8_t)0x40)
+
+
 /** @defgroup High_Pass_Filter_status 
   * @{
-  */   
-#define L3GD20_HIGHPASSFILTER_DISABLE      ((uint8_t)0x00)
-#define L3GD20_HIGHPASSFILTER_ENABLE	     ((uint8_t)0x10)
-/**
-  * @}
   */
+#define L3GD20_HIGHPASSFILTER_DISABLE      ((uint8_t)0x00)
+#define L3GD20_HIGHPASSFILTER_ENABLE         ((uint8_t)0x10)
 
 /** @defgroup INT1_INT2_selection 
   * @{
-  */   
+  */
 #define L3GD20_INT1                        ((uint8_t)0x00)
 #define L3GD20_INT2                        ((uint8_t)0x01)
-/**
-  * @}
-  */
+
 
 /** @defgroup INT1_Interrupt_status 
   * @{
-  */   
+  */
 #define L3GD20_INT1INTERRUPT_DISABLE       ((uint8_t)0x00)
 #define L3GD20_INT1INTERRUPT_ENABLE        ((uint8_t)0x80)
-/**
-  * @}
-  */
+
 
 /** @defgroup INT2_Interrupt_status 
   * @{
-  */   
+  */
 #define L3GD20_INT2INTERRUPT_DISABLE       ((uint8_t)0x00)
 #define L3GD20_INT2INTERRUPT_ENABLE        ((uint8_t)0x08)
-/**
-  * @}
-  */
+
 
 /** @defgroup INT1_Interrupt_ActiveEdge 
   * @{
-  */   
+  */
 #define L3GD20_INT1INTERRUPT_LOW_EDGE      ((uint8_t)0x20)
 #define L3GD20_INT1INTERRUPT_HIGH_EDGE     ((uint8_t)0x00)
-/**
-  * @}
-  */
-  
+
+
 /** @defgroup Boot_Mode_selection 
   * @{
   */
 #define L3GD20_BOOT_NORMALMODE             ((uint8_t)0x00)
 #define L3GD20_BOOT_REBOOTMEMORY           ((uint8_t)0x80)
-/**
-  * @}
-  */  
- 
+
+
 /** @defgroup High_Pass_Filter_Mode 
   * @{
-  */   
+  */
 #define L3GD20_HPM_NORMAL_MODE_RES         ((uint8_t)0x00)
 #define L3GD20_HPM_REF_SIGNAL              ((uint8_t)0x10)
 #define L3GD20_HPM_NORMAL_MODE             ((uint8_t)0x20)
 #define L3GD20_HPM_AUTORESET_INT           ((uint8_t)0x30)
-/**
-  * @}
-  */
 
 /** @defgroup High_Pass_CUT OFF_Frequency 
   * @{
-  */   
+  */
 #define L3GD20_HPFCF_0              0x00
 #define L3GD20_HPFCF_1              0x01
 #define L3GD20_HPFCF_2              0x02
@@ -262,63 +234,54 @@
 #define L3GD20_HPFCF_7              0x07
 #define L3GD20_HPFCF_8              0x08
 #define L3GD20_HPFCF_9              0x09
-/**
-  * @}
-  */
 
-/**
-  * @}
-  */
 /** @defgroup L3GD20_Exported_Functions
   * @{
   */
-/* Sensor Configuration Functions */ 
-void    L3GD20_Init(uint16_t InitStruct);
-void    L3GD20_DeInit(void);
-void    L3GD20_LowPower(uint16_t InitStruct);
+/* Sensor Configuration Functions */
+void L3GD20_Init(uint16_t InitStruct);
+
+void L3GD20_DeInit(void);
+
+void L3GD20_LowPower(uint16_t InitStruct);
+
 uint8_t L3GD20_ReadID(void);
-void    L3GD20_RebootCmd(void);
+
+void L3GD20_RebootCmd(void);
 
 /* Interrupt Configuration Functions */
-void    L3GD20_INT1InterruptConfig(uint16_t Int1Config);
-void    L3GD20_EnableIT(uint8_t IntSel);
-void    L3GD20_DisableIT(uint8_t IntSel);
+void L3GD20_INT1InterruptConfig(uint16_t Int1Config);
+
+void L3GD20_EnableIT(uint8_t IntSel);
+
+void L3GD20_DisableIT(uint8_t IntSel);
 
 /* High Pass Filter Configuration Functions */
-void    L3GD20_FilterConfig(uint8_t FilterStruct);
-void    L3GD20_FilterCmd(uint8_t HighPassFilterState);
-void    L3GD20_ReadXYZAngRate(float *pfData);
+void L3GD20_FilterConfig(uint8_t FilterStruct);
+
+void L3GD20_FilterCmd(uint8_t HighPassFilterState);
+
+void L3GD20_ReadXYZAngRate(float *pfData);
+
 uint8_t L3GD20_GetDataStatus(void);
 
 /* Gyroscope IO functions */
-void    GYRO_IO_Init(void);
-void    GYRO_IO_DeInit(void);
-void    GYRO_IO_Write(uint8_t *pBuffer, uint8_t WriteAddr, uint16_t NumByteToWrite);
-void    GYRO_IO_Read(uint8_t *pBuffer, uint8_t ReadAddr, uint16_t NumByteToRead);
+void GYRO_IO_Init(void);
+
+void GYRO_IO_DeInit(void);
+
+void GYRO_IO_Write(uint8_t *pBuffer, uint8_t WriteAddr, uint16_t NumByteToWrite);
+
+void GYRO_IO_Read(uint8_t *pBuffer, uint8_t ReadAddr, uint16_t NumByteToRead);
 
 /* Gyroscope driver structure */
 extern GYRO_DrvTypeDef L3gd20Drv;
 
-/**
-  * @}
-  */
-
-/**
-  * @}
-  */
-
-/**
-  * @}
-  */ 
-  
-/**
-  * @}
-  */ 
 
 #ifdef __cplusplus
-  }
+}
 #endif
-  
+
 #endif /* __L3GD20_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/ 

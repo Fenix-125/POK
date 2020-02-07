@@ -226,9 +226,35 @@ CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.s
 
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c
+
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c > CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i
+
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.s
+
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
+
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c > CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i
+
+CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.s
+
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
@@ -241,7 +267,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
@@ -254,7 +280,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i: cmake_force
@@ -267,7 +293,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj: ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i: cmake_force
@@ -280,7 +306,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/gpio.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.i: cmake_force
@@ -293,7 +319,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/gpio.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj: ../Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/i2c.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.i: cmake_force
@@ -306,7 +332,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj: ../Src/l3gd20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/l3gd20.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.i: cmake_force
@@ -319,7 +345,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj: ../Src/lsm303dlhc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/lsm303dlhc.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.i: cmake_force
@@ -332,7 +358,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/main.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.i: cmake_force
@@ -343,9 +369,22 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_7_i2c/Src/main.c -o CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.s
 
+CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
+CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj: ../Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/spi.c
+
+CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fenix/pr/subj/POK/lab_7_i2c/Src/spi.c > CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.i
+
+CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fenix/pr/subj/POK/lab_7_i2c/Src/spi.c -o CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.s
+
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj: ../Src/stm32f3_discovery.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3_discovery.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.i: cmake_force
@@ -358,7 +397,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj: ../Src/stm32f3_discovery_accelerometer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3_discovery_accelerometer.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.i: cmake_force
@@ -371,7 +410,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.s: cmake_forc
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj: ../Src/stm32f3_discovery_gyroscope.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3_discovery_gyroscope.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.i: cmake_force
@@ -384,7 +423,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.obj: ../Src/stm32f3xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3xx_hal_msp.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.i: cmake_force
@@ -397,7 +436,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.obj: ../Src/stm32f3xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3xx_it.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.i: cmake_force
@@ -410,7 +449,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3xx_it.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.obj: ../Src/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/sys.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.i: cmake_force
@@ -423,7 +462,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/sys.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/syscalls.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.i: cmake_force
@@ -436,7 +475,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.obj: ../Src/system_stm32f3xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/system_stm32f3xx.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.i: cmake_force
@@ -449,7 +488,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/system_stm32f3xx.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj   -c /home/fenix/pr/subj/POK/lab_7_i2c/Src/usart.c
 
 CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.i: cmake_force
@@ -462,7 +501,7 @@ CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.s: cmake_force
 
 CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj: CMakeFiles/lab_7_i2c.elf.dir/flags.make
 CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj: ../startup/startup_stm32f303xc.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj -c /home/fenix/pr/subj/POK/lab_7_i2c/startup/startup_stm32f303xc.s
 
 # Object files for target lab_7_i2c.elf
@@ -480,6 +519,8 @@ lab_7_i2c_elf_OBJECTS = \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj" \
+"CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj" \
@@ -489,6 +530,7 @@ lab_7_i2c_elf_OBJECTS = \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj" \
+"CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj" \
 "CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj" \
@@ -516,6 +558,8 @@ lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
@@ -525,6 +569,7 @@ lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/i2c.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/l3gd20.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/lsm303dlhc.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/main.c.obj
+lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/spi.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_accelerometer.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/stm32f3_discovery_gyroscope.c.obj
@@ -537,7 +582,7 @@ lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/Src/usart.c.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/startup/startup_stm32f303xc.s.obj
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/build.make
 lab_7_i2c.elf: CMakeFiles/lab_7_i2c.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable lab_7_i2c.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable lab_7_i2c.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_7_i2c.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/lab_7_i2c.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/fenix/pr/subj/POK/lab_7_i2c/cmake-build-debug/lab_7_i2c.bin"

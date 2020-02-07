@@ -1,0 +1,4 @@
+/home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fenix/pr/subj/POK/exam/mux_74hc151n
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug

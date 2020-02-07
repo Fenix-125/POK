@@ -1,0 +1,51 @@
+//
+// Created by fenix on 1/22/20.
+//
+
+#ifndef MUX_74HC151N_MUX_3_8_H
+#define MUX_74HC151N_MUX_3_8_H
+
+#include <stdbool.h>
+#include "main.h"
+
+#define IN_PORT     GPIOE;   // pins 0-7
+#define STATE_PORT  GPIOB;   // pins 4-6
+#define OUT_PORT    GPIOB;   // pins 0-2
+
+#define S_0     4;
+#define S_1     5;
+#define S_2     6;
+
+#define OUT     0;
+#define NEG_OUT 1;
+#define ENABLE  2;
+
+struct MUX_3_8 {
+    void (*set_input)(uint8_t);
+    void (*set_state)(uint8_t);
+    void (*set_enable)(bool);
+    bool (*read_OUT)();
+    bool (*read_NOUT)();
+};
+
+void set_bit_to(uint16_t * reg_ref, uint8_t pos, bool val;
+
+void set_mux_3_8_input(uint8_t input);
+
+void set_mux_3_8_state(uint8_t state);
+
+void set_mux_3_8_enable(bool enable);
+
+bool read_mux_3_8_OUT();
+
+bool read_mux_3_8_NOUT();
+
+//struct MUX_3_8 mux_3_8_tester;
+//        = {
+//    set_mux_3_8_input;
+//    set_mux_3_8_state;
+//    set_mux_3_8_enable;
+//    read_mux_3_8_OUT;
+//    read_mux_3_8_NOUT;
+//};
+#endif //MUX_74HC151N_MUX_3_8_H

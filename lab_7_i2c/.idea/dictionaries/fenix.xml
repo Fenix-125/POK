@@ -1,0 +1,29 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="fenix">
+    <words>
+      <w>accelero</w>
+      <w>autoreset</w>
+      <w>bluetooth</w>
+      <w>cplt</w>
+      <w>crtl</w>
+      <w>ctrlx</w>
+      <w>datarate</w>
+      <w>dlhc</w>
+      <w>drdy</w>
+      <w>exti</w>
+      <w>fbuffer</w>
+      <w>frquency</w>
+      <w>fullscale</w>
+      <w>gpio</w>
+      <w>gpioe</w>
+      <w>highpassfilter</w>
+      <w>hpfcf</w>
+      <w>hspi</w>
+      <w>mems</w>
+      <w>normalmode</w>
+      <w>powerdown</w>
+      <w>rebootmemory</w>
+      <w>xdata</w>
+    </words>
+  </dictionary>
+</component>

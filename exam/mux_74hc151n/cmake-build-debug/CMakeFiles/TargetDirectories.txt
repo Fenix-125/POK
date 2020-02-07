@@ -1,0 +1,3 @@
+/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles/mux_74hc151n.elf.dir
+/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles/edit_cache.dir

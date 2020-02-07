@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mux_74hc151n"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mux_74hc151n.elf">
+				<Option output="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/mux_74hc151n.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F303xC"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Inc"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 mux_74hc151n.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mux_74hc151n.elf/fast">
+				<Option output="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/mux_74hc151n.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F303xC"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Inc"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 mux_74hc151n.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_exti.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/STM32F303VCTx_FLASH.ld">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/gpio.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/main.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/mux_3_8.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/stm32f3xx_hal_msp.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/stm32f3xx_it.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/sys.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/syscalls.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/Backup/system_stm32f3xx.c.bak">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/gpio.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/main.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/stm32f3xx_hal_msp.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/stm32f3xx_it.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/sys.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/syscalls.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/Src/system_stm32f3xx.c">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/startup/startup_stm32f303xc.s">
+			<Option target="mux_74hc151n.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/exam/mux_74hc151n/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

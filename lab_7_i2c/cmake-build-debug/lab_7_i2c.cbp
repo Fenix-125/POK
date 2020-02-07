@@ -221,6 +221,12 @@
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h">
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi.h">
+			<Option target="lab_7_i2c.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_spi_ex.h">
+			<Option target="lab_7_i2c.elf"/>
+		</Unit>
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h">
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
@@ -270,6 +276,12 @@
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c">
+			<Option target="lab_7_i2c.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c">
+			<Option target="lab_7_i2c.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c">
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c">
@@ -342,6 +354,9 @@
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Src/main.c">
+			<Option target="lab_7_i2c.elf"/>
+		</Unit>
+		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Src/spi.c">
 			<Option target="lab_7_i2c.elf"/>
 		</Unit>
 		<Unit filename="/home/fenix/pr/subj/POK/lab_7_i2c/Src/stm32f3_discovery.c">

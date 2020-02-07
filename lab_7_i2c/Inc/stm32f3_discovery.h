@@ -53,31 +53,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f3xx_hal.h"
    
-/** @defgroup STM32F3_DISCOVERY_Common STM32F3-DISCOVERY Common
-  * @{
-  */
-  
-/** @defgroup STM32F3_DISCOVERY_Private_Constants Private Constants
-  * @{
-  */
-/**
-* @}
-*/        
-      
-/** @defgroup STM32F3_DISCOVERY_Private_Variables Private Variables
-  * @{
-  */ 
-/**
-* @}
-  */ 
 
-/** @defgroup STM32F3_DISCOVERY_Exported_Types Exported Types
-  * @{
-  */
-
-/**
- * @brief LED Types Definition
- */
 typedef enum
 {
   LED3 = 0,
@@ -99,9 +75,7 @@ typedef enum
   LED_BLUE_2   = LED9
 }Led_TypeDef;
 
-/**
- * @brief BUTTON Types Definition
- */
+
 typedef enum 
 {
   BUTTON_USER = 0
@@ -116,17 +90,6 @@ typedef enum
 }ButtonMode_TypeDef;
 
 
-/**
-  * @}
-  */ 
-
-/** @defgroup STM32F3_DISCOVERY_Exported_Constants Exported Constants
-  * @{
-  */ 
-
-/** 
-  * @brief  Define for STM32F3_DISCOVERY board  
-  */ 
 
 #if !defined (USE_STM32F3_DISCO)
  #define USE_STM32F3_DISCO

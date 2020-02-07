@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration name="OCD lab_7_i2c" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_7_i2c" TARGET_NAME="lab_7_i2c.elf" RUN_TARGET_PROJECT_NAME="lab_7_i2c" RUN_TARGET_NAME="lab_7_i2c.elf">
+  <configuration name="OCD lab_7_i2c" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_7_i2c" TARGET_NAME="lab_7_i2c.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_7_i2c" RUN_TARGET_NAME="lab_7_i2c.elf">
     <openocd gdb-port="3333" telnet-port="4444" board-config="board/stm32f3discovery.cfg" reset-type="INIT" download-type="ALWAYS" />
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />

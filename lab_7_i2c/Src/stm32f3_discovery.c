@@ -601,8 +601,7 @@ void GYRO_IO_Write(uint8_t* pBuffer, uint8_t WriteAddr, uint16_t NumByteToWrite)
   * @param  NumByteToRead number of bytes to read from the GYROSCOPE.
   * @retval None
   */
-void GYRO_IO_Read(uint8_t* pBuffer, uint8_t ReadAddr, uint16_t NumByteToRead)
-{  
+void GYRO_IO_Read(uint8_t *pBuffer, uint8_t ReadAddr, uint16_t NumByteToRead) {
   if(NumByteToRead > 0x01)
   {
     ReadAddr |= (uint8_t)(READWRITE_CMD | MULTIPLEBYTE_CMD);
