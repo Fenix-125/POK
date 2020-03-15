@@ -44,21 +44,21 @@ RM = /home/fenix/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fenix/pr/subj/POK/exam/mux_74hc151n
+CMAKE_SOURCE_DIR = /home/fenix/pr/subj/POK/midle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fenix/pr/subj/POK/midle/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/mux_74hc151n.elf.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/mux_74hc151n.elf.dir/clean
+clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/mux_74hc151n.elf.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/mux_74hc151n.elf.dir/all:
-	$(MAKE) -f CMakeFiles/mux_74hc151n.elf.dir/build.make CMakeFiles/mux_74hc151n.elf.dir/depend
-	$(MAKE) -f CMakeFiles/mux_74hc151n.elf.dir/build.make CMakeFiles/mux_74hc151n.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target mux_74hc151n.elf"
-.PHONY : CMakeFiles/mux_74hc151n.elf.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fenix/pr/subj/POK/midle/build/CMakeFiles --progress-num=1,2,3 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mux_74hc151n.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles 24
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mux_74hc151n.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fenix/pr/subj/POK/exam/mux_74hc151n/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/mux_74hc151n.elf.dir/rule
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fenix/pr/subj/POK/midle/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fenix/pr/subj/POK/midle/build/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-mux_74hc151n.elf: CMakeFiles/mux_74hc151n.elf.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : mux_74hc151n.elf
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/mux_74hc151n.elf.dir/clean:
-	$(MAKE) -f CMakeFiles/mux_74hc151n.elf.dir/build.make CMakeFiles/mux_74hc151n.elf.dir/clean
-.PHONY : CMakeFiles/mux_74hc151n.elf.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

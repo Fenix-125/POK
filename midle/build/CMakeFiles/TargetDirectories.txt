@@ -1,0 +1,3 @@
+/home/fenix/pr/subj/POK/midle/build/CMakeFiles/rebuild_cache.dir
+/home/fenix/pr/subj/POK/midle/build/CMakeFiles/main.dir
+/home/fenix/pr/subj/POK/midle/build/CMakeFiles/edit_cache.dir
